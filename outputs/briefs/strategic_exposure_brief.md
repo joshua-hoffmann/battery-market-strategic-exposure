@@ -1,0 +1,105 @@
+﻿# Strategic Exposure Brief
+
+## Project
+
+Battery Market Strategic Exposure Case Study
+
+## Decision Form
+
+This project provides a scorecard-assisted descriptive judgment based on selected public indicators.
+
+It is not a forecast model, investment recommendation, policy prescription, geopolitical ranking, automatic risk score, or validated strategic exposure model.
+
+## Business Question
+
+How did regional exposure to battery value-chain pressure differ across China, the EU, the United States, and the Rest of World, based on selected public indicators for demand intensity, lithium dependency, and market concentration?
+
+## Current MVP Scope
+
+This brief uses the first validated latest-year MVP output.
+
+Scope:
+
+- Year: 2025 only
+- Regions: China, EU, United States, Rest of World
+- Indicators: demand intensity, lithium dependency, market concentration
+- Input rows: 12 manually curated scoring rows
+- Processed rows: 4 region-level scorecard rows
+- Charts: 2 latest-year charts
+- Trend chart: postponed until multi-year data exists
+
+The current MVP should not be described as a 2020-2025 trend analysis.
+
+## Source Basis
+
+The MVP uses:
+
+- IEA Global EV Outlook 2026 for EV battery deployment and battery manufacturing capacity indicators
+- USGS Mineral Commodity Summaries 2026 for lithium mine production indicators
+
+The curated source rules are documented in:
+
+- docs/data_sources.md
+- docs/validation_note.md
+
+## Scorecard Results
+
+| Region | Demand intensity score | Lithium dependency score | Market concentration score | Scorecard exposure index | Observed pressure label | Evidence quality |
+|---|---:|---:|---:|---:|---|---|
+| China | 100.0 | 72.7 | 100.0 | 90.9 | higher_observed_pressure | medium |
+| EU | 10.0 | 99.9 | 0.0 | 36.6 | moderate_observed_pressure | medium |
+| United States | 0.0 | 100.0 | 0.0 | 33.3 | moderate_observed_pressure | low |
+| Rest of World | 10.0 | 0.0 | 0.7 | 3.6 | lower_observed_pressure | low |
+
+## Reading the Output
+
+The scorecard suggests that China appears to have the highest observed battery value-chain pressure in the 2025 MVP. This result is driven by high demand intensity and high battery manufacturing concentration, combined with a non-zero but not dominant lithium mine production share.
+
+The EU appears to show moderate observed pressure in the 2025 MVP. Its score is mainly shaped by high lithium dependency pressure and lower demand/manufacturing concentration scores under the selected proxies.
+
+The United States also appears to show moderate observed pressure in the 2025 MVP. Its score is strongly affected by the lithium dependency proxy, because U.S. lithium mine production is withheld in the USGS source and is treated as a disclosed-data proxy, not as proof of zero production.
+
+Rest of World appears to show lower observed pressure in the scorecard. This result should be interpreted cautiously because Rest of World is a residual aggregate, not a coherent strategic region.
+
+## Chart Outputs
+
+Generated charts:
+
+- outputs/charts/exposure_score_by_region.png
+- outputs/charts/exposure_components_2025.png
+
+The trend chart is intentionally postponed because the current dataset contains only one scorecard year.
+
+## Important Caveats
+
+The scorecard measures selected observable proxies. It does not measure strategic exposure directly.
+
+High exposure does not automatically mean weakness. A high score may reflect industrial scale, market size, or concentration as well as pressure.
+
+Lithium dependency is proxied through lithium mine production share. This does not capture battery-grade lithium access, refining capacity, supply contracts, stockpiles, recycling, substitution, or corporate sourcing arrangements.
+
+Battery manufacturing capacity is not the same as actual battery production, utilization, profitability, or resilience.
+
+IEA values used in the MVP are rounded textual values entered using a fixed rounding convention.
+
+USGS lithium mine production is country-based. U.S. production is withheld by USGS, so the U.S. lithium row is a disclosed-data proxy and not proof of zero production.
+
+Rest of World is residual and heterogeneous.
+
+## Management Takeaway
+
+The latest-year MVP shows how a compact public-data scorecard can structure regional battery value-chain exposure signals without claiming to predict outcomes or rank geopolitical winners and losers.
+
+The main analytical value is not the precise score itself. The value is the transparent decomposition of exposure into demand intensity, lithium dependency, and market concentration, with caveats visible at each step.
+
+## Recommended Next Project Step
+
+The next improvement should be multi-year data expansion from 2020 to 2025.
+
+Only after consistent multi-year rows exist should the project create:
+
+- exposure_trend_2020_2025.png
+- trend discussion
+- stronger comparison of changes over time
+
+Until then, this brief should remain a latest-year MVP interpretation.
