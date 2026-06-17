@@ -313,3 +313,99 @@ Before running the pipeline, the curated CSV must contain only the approved 12 s
 No policy_context rows should be added yet.
 
 No strategic conclusions should be written before validation, processed output, and charts exist.
+
+<!-- V2.1_CRITICAL_MINERALS_DATA_SOURCES_START -->
+
+## V2.1 Data Sources - Critical Minerals Concentration Tracker
+
+### Purpose
+
+V2.1 extends the original battery exposure scorecard with a separate concentration tracker for critical battery minerals.
+
+V2.1 question:
+
+Which battery minerals show the highest and most persistent supply concentration, and has concentration improved or worsened over time?
+
+### Primary source
+
+V2.1 uses USGS Mineral Commodity Summaries 2025 Data Releases as the primary source for mine-production concentration analysis.
+
+Target materials:
+
+- lithium
+- cobalt
+- nickel
+- natural_graphite
+- manganese
+
+Target period:
+
+- 2020
+- 2021
+- 2022
+- 2023
+- 2024
+
+The project treats USGS world production data as the source basis for country-level production shares.
+
+### Source boundary
+
+V2.1 is USGS-only for the core concentration calculation.
+
+IEA Critical Minerals data may be reviewed later for V2.2 or V2.3 context, but it is not part of the V2.1 calculation layer.
+
+### Canonical material naming
+
+The project uses the following canonical material names:
+
+- lithium
+- cobalt
+- nickel
+- natural_graphite
+- manganese
+
+USGS source-release naming should be preserved separately in the source_release column.
+
+Example:
+
+- material = natural_graphite
+- source_release = Mineral Commodity Summaries 2025 - GRAPHITE (NATURAL) Data Release
+
+### Curated input file
+
+The V2.1 curated input contract is:
+
+data/curated/critical_minerals_production_inputs.csv
+
+Required columns:
+
+- year
+- material
+- country
+- production_value
+- unit
+- source_name
+- source_release
+- source_year
+- source_detail
+- value_status
+- is_world_total
+- include_in_concentration_calc
+- data_quality_flag
+- notes
+
+### Data-entry rule
+
+Do not treat missing, withheld, or unavailable values as zero.
+
+Allowed value_status examples:
+
+- reported
+- estimated
+- withheld
+- not_available
+- rounded
+
+Rows with withheld or not_available values should not be included in concentration calculations unless a later documented methodology change explicitly allows it.
+
+<!-- V2.1_CRITICAL_MINERALS_DATA_SOURCES_END -->

@@ -1,188 +1,144 @@
-﻿# Battery Market Strategic Exposure Case Study
+﻿# Battery Market Strategic Exposure
 
-## Overview
+## Project Overview
 
-This project is a Python-supported business analytics case study that evaluates regional strategic exposure in the global battery value chain using selected public-data indicators.
+This project analyzes supply concentration patterns in selected battery-related critical minerals using a USGS-only mine-production dataset.
 
-It compares China, the European Union, the United States, and Rest of World using a compact scorecard based on:
+The goal is to convert raw production data into decision-ready concentration signals that help answer a focused business question: which battery minerals show the highest observed mine-production concentration, and whether concentration has improved or worsened over time.
 
-- EV battery demand / deployment
-- lithium mine production dependency proxy
-- battery manufacturing capacity concentration
+The project is designed as a business analytics and decision-support artifact, not as a geopolitical model, investment recommendation, or forecast.
 
-The project builds on the author's academic interest in battery-market structure and translates that topic into a compact public-data analytics case study.
+## V2.1 — Critical Minerals Mine-Production Concentration Tracker
+
+V2.1 is a USGS-only critical minerals mine-production concentration tracker covering lithium, cobalt, nickel, natural graphite, and manganese from 2020 to 2024.
+
+The pipeline uses curated mine-production inputs, calculates producer-level country shares, derives concentration metrics, ranks the latest year, and generates visual outputs for README and portfolio presentation.
+
+V2.1 focuses on observed production concentration. It does not convert concentration into a risk score.
 
 ## Business Question
 
-How did regional exposure to battery value-chain pressure differ across China, the EU, the United States, and the Rest of World, based on selected public indicators for demand intensity, lithium dependency, and market concentration?
+Which battery minerals show the highest and most persistent supply concentration, and has concentration improved or worsened over time?
 
-## Decision Form
+## What V2.1 Measures
 
-This project provides a scorecard-assisted descriptive judgment based on selected public indicators.
+V2.1 measures country-level mine-production concentration for selected battery minerals.
 
-It is not:
+The core signal is based on:
 
-- a forecast model
-- an investment recommendation
-- a policy prescription
-- a geopolitical ranking
-- an automatic risk score
-- a validated strategic exposure model
+- producer share by country
+- largest producer share
+- top-three producer share
+- Herfindahl-Hirschman Index, or HHI
+- share coverage validation
 
-## Current Status
+The latest 2024 ranking shows natural graphite and cobalt with the highest observed mine-production concentration among the selected minerals, followed by nickel, lithium, and manganese.
 
-The current version is a latest-year MVP using 2025 data only.
+## Key 2024 Output
 
-Validated outputs currently include:
+| Rank | Material | Top Producer | Top 3 Share (%) | HHI |
+|---:|---|---|---:|---:|
+| 1 | Natural graphite | China | 89.625 | 6380.866 |
+| 2 | Cobalt | Congo (Kinshasa) | 88.517 | 5871.850 |
+| 3 | Nickel | Indonesia | 76.486 | 3771.872 |
+| 4 | Lithium | Australia | 74.167 | 2215.265 |
+| 5 | Manganese | South Africa | 74.000 | 2200.027 |
 
-- processed scorecard output
-- two generated charts
-- validation note
-- strategic exposure brief
+## Visual Outputs
 
-The project does not yet include a 2020-2025 trend analysis. The trend chart is intentionally postponed until consistent multi-year data exists.
+The README highlights three main charts:
 
-## Repository Structure
+1. 2024 HHI ranking by material
+2. Top-three producer share trend over time
+3. 2024 comparison of largest-producer share and top-three share
 
-battery-market-strategic-exposure/
+A separate share coverage diagnostic chart is generated as a method and audit output, but is not used as a main README visual.
 
-- data/
-  - curated/
-    - battery_exposure_inputs.csv
-  - processed/
-    - battery_exposure_indicators.csv
-- docs/
-  - data_sources.md
-  - limitations.md
-  - methodology.md
-  - validation_note.md
-- outputs/
-  - briefs/
-    - strategic_exposure_brief.md
-  - charts/
-    - exposure_components_2025.png
-    - exposure_score_by_region.png
-- src/
-  - calculate_exposure_indicators.py
-  - create_charts.py
-  - run_pipeline.py
-- .gitignore
-- README.md
-- requirements.txt
+### 2024 HHI Ranking
 
-## Data Contract
+![2024 HHI ranking for selected battery minerals](outputs/charts/critical_minerals_2024_hhi_ranking.png)
 
-The curated input file is:
+### Top 3 Producer Share Trend
 
-    data/curated/battery_exposure_inputs.csv
+![Top 3 producer share trend for selected battery minerals](outputs/charts/critical_minerals_top3_share_trend.png)
 
-Current schema:
+### 2024 Top 1 vs. Top 3 Producer Share Comparison
 
-    year,region,indicator_name,indicator_category,value,unit,value_type,source_name,source_detail,source_year,is_outlook_context,include_in_scorecard,coverage_quality,region_mapping,notes
+![2024 comparison of top 1 and top 3 producer share by material](outputs/charts/critical_minerals_2024_top1_top3_comparison.png)
 
-The first validated MVP input contains:
+## Methodology
 
-- 3 scoring indicators
-- 4 project regions
-- 12 curated rows
-- 2025 only
-- no policy_context rows
-- no 2030 rows
-- no trend rows
+The V2.1 pipeline starts from a curated USGS-only mine-production input file. For each material, year, and producing country, producer share measures that country's share of reported mine production. Top-1 producer share identifies the share held by the largest producer in a given material-year. Top-3 producer share sums the production shares of the three largest producers and is used to show how concentrated production is among the leading suppliers.
 
-## Source Basis
+HHI, or Herfindahl-Hirschman Index, squares and sums producer shares to capture overall concentration across the producer base. A higher HHI indicates more concentrated observed mine production. The pipeline also includes a share coverage check to confirm that calculated country shares for each material-year align with USGS World totals before the concentration outputs are used.
 
-The MVP uses public sources from:
+## How to Run V2.1
 
-- International Energy Agency, Global EV Outlook 2026
-- U.S. Geological Survey, Mineral Commodity Summaries 2026, Lithium
+Run the concentration calculation:
 
-The source rules and caveats are documented in:
+    python src/calculate_critical_minerals_concentration.py
 
-- docs/data_sources.md
-- docs/validation_note.md
+Generate the charts:
 
-## Methodology Summary
+    python src/create_critical_minerals_charts.py
 
-The pipeline validates the curated CSV, normalizes indicator values by year and category, and calculates three component scores:
+Expected result:
 
-- demand_intensity_score
-- lithium_dependency_score
-- market_concentration_score
+- processed concentration datasets are written to data/processed/
+- chart outputs are written to outputs/charts/
+- the chart pipeline completes using the matplotlib Agg backend
 
-The final scorecard_exposure_index is an equal-weight descriptive average of the available component scores.
+## Generated Outputs
 
-The lithium dependency component is inverted from lithium mine production share. Lower disclosed lithium mine production share therefore creates higher observed lithium dependency pressure in the scorecard.
+### Curated Input
 
-## Current MVP Results
+    data/curated/critical_minerals_production_inputs.csv
 
-| Region | Demand | Lithium dependency | Market concentration | Exposure index | Label | Evidence |
-|---|---:|---:|---:|---:|---|---|
-| China | 100.0 | 72.7 | 100.0 | 90.9 | higher_observed_pressure | medium |
-| EU | 10.0 | 99.9 | 0.0 | 36.6 | moderate_observed_pressure | medium |
-| United States | 0.0 | 100.0 | 0.0 | 33.3 | moderate_observed_pressure | low |
-| Rest of World | 10.0 | 0.0 | 0.7 | 3.6 | lower_observed_pressure | low |
+### Source Scripts
 
-These values are directional scorecard outputs, not precise measurements of strategic exposure.
+    src/calculate_critical_minerals_concentration.py
+    src/create_critical_minerals_charts.py
 
-## Charts
+### Processed Data
 
-Current generated charts:
+    data/processed/critical_minerals_country_shares.csv
+    data/processed/critical_minerals_concentration_metrics.csv
+    data/processed/critical_minerals_latest_ranking.csv
 
-- outputs/charts/exposure_score_by_region.png
-- outputs/charts/exposure_components_2025.png
+### Charts
 
-The trend chart is intentionally postponed because the current MVP contains only one scorecard year.
+    outputs/charts/critical_minerals_2024_hhi_ranking.png
+    outputs/charts/critical_minerals_top3_share_trend.png
+    outputs/charts/critical_minerals_2024_top1_top3_comparison.png
+    outputs/charts/critical_minerals_share_coverage_diagnostic.png
 
-## How to Run
+The share coverage diagnostic chart is retained as a method and audit output rather than as a main README visual.
 
-Create or use the project virtual environment, install requirements, then run:
+## Limitations
 
-    .\.venv\Scripts\python.exe src\run_pipeline.py
+This project measures observed USGS mine-production concentration only. It is not a risk score, not an investment signal, not a geopolitical ranking, and not a forecast.
 
-This generates:
+The results show where mine production is concentrated by country, but they do not independently measure trade flows, refining capacity, reserves, substitution potential, inventory buffers, company exposure, political stability, pricing power, or downstream battery supply-chain resilience.
 
-- data/processed/battery_exposure_indicators.csv
-- outputs/charts/exposure_score_by_region.png
-- outputs/charts/exposure_components_2025.png
-
-## Key Limitations
-
-The scorecard uses selected observable proxies. It does not measure strategic exposure directly.
-
-High exposure does not automatically mean weakness. A high score may reflect market size, industrial scale, or concentration as well as pressure.
-
-IEA values used in the MVP are rounded textual values entered using a fixed rounding convention.
-
-USGS lithium mine production is country-based. U.S. production is withheld by USGS, so the U.S. lithium row is a disclosed-data proxy and not proof of zero production.
-
-Rest of World is a residual aggregate and should not be interpreted as a coherent strategic actor.
-
-The current MVP is latest-year only and should not be described as a 2020-2025 trend analysis.
-
-## Strategic Brief
-
-The management-oriented brief is available at:
-
-    outputs/briefs/strategic_exposure_brief.md
-
-## AI-Assisted Workflow
-
-AI tools were used to support documentation structure, wording review, implementation drafting, debugging, and claim-discipline checks.
-
-Data selection, source review, indicator design, interpretation, validation, and final responsibility remain with the author.
-
-The project does not use proprietary data, proprietary forecasting, automated investment recommendations, or AI-generated evidence.
+Concentration is therefore treated as a decision-relevant supply-structure signal, not as a complete measure of mineral supply risk.
 
 ## Portfolio Relevance
 
-This project demonstrates:
+V2.1 demonstrates how a focused data pipeline can turn raw public-source production data into a decision-ready business signal.
 
-- public-data curation
-- Python-based validation and processing
-- scorecard-assisted business analytics
-- transparent limitations
-- management-oriented communication
-- strategic finance and business analytics reasoning
+The project shows:
 
-It complements company-level finance analytics projects by adding an industry and value-chain exposure perspective.
+- curated data preparation
+- country-level production share calculation
+- concentration metric design
+- diagnostic validation before interpretation
+- visual communication of supply concentration
+- clear claim boundaries around what the analysis does and does not prove
+
+This makes the project relevant for roles involving finance, business analytics, supply-chain analysis, market research, and Python-based decision support.
+
+## Version Note
+
+V2.1 is the current primary version of this project.
+
+Earlier V1 framing is retained only as project history and has been superseded by the USGS-only mine-production concentration tracker.

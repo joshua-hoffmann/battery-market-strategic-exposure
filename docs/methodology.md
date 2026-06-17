@@ -190,3 +190,125 @@ Rest of World should usually be treated as a residual aggregate and marked as gl
 The final curated input header is:
 
 year,region,indicator_name,indicator_category,value,unit,value_type,source_name,source_detail,source_year,is_outlook_context,include_in_scorecard,coverage_quality,region_mapping,notes
+
+<!-- V2.1_CRITICAL_MINERALS_METHODOLOGY_START -->
+
+## V2.1 Methodology - Critical Minerals Concentration Tracker
+
+### Analytical form
+
+V2.1 is a descriptive concentration tracker.
+
+It does not create an investment recommendation, a forecast model, a geopolitical ranking, or a validated supply-chain risk model.
+
+Decision form:
+
+- scorecard-assisted descriptive judgment
+
+Core signal:
+
+- structural supply concentration signal
+
+Not:
+
+- final risk score
+
+### Unit discipline
+
+Production quantities may use different units across different materials.
+
+The project may compare concentration metrics across materials because Top-1 share, Top-3 share, and HHI are dimensionless.
+
+The project must not compare raw production quantities across materials unless units and measurement bases are explicitly comparable.
+
+### Producer share
+
+For each material-year-country row:
+
+producer_share = production_value / world_total_production
+
+world_total_production comes from the USGS world total row for the same material and year.
+
+### Top-1 producer share
+
+top_1_producer_share = max(producer_share)
+
+Also record:
+
+top_1_producer = country with highest producer_share
+
+### Top-3 producer share
+
+top_3_producer_share = sum(producer_share for the three largest producer countries)
+
+If fewer than three valid producer rows exist for a material-year, the data quality flag should be lowered and the limitation should be documented.
+
+### HHI concentration index
+
+V2.1 uses the 0-10000 HHI convention:
+
+hhi_concentration_index = sum((producer_share * 100)^2)
+
+Examples:
+
+- If one country has 100 percent share, HHI = 10000.
+- If four countries each have 25 percent share, HHI = 2500.
+
+### YoY change in Top-3 share
+
+yoy_change_top3_share_pp = top_3_producer_share_current_year - top_3_producer_share_previous_year
+
+Example:
+
+0.72 - 0.69 = 0.03 = plus 3 percentage points
+
+The first year, 2020, has no prior-year comparison and should remain blank for YoY change.
+
+### Latest-year material ranking
+
+For V2.1, the latest year is expected to be 2024.
+
+Ranking rule:
+
+- Primary rank: hhi_concentration_index descending
+- Secondary reference: top_3_producer_share descending
+
+This is a concentration ranking, not a geopolitical or investment ranking.
+
+### Validation checks required before processed outputs
+
+Input schema must include all required columns.
+
+Allowed materials:
+
+- lithium
+- cobalt
+- nickel
+- natural_graphite
+- manganese
+
+Allowed V2.1 years:
+
+- 2020
+- 2021
+- 2022
+- 2023
+- 2024
+
+For each material-year, exactly one world total row should exist:
+
+- is_world_total = true
+- include_in_concentration_calc = false
+
+Producer rows should use:
+
+- is_world_total = false
+- include_in_concentration_calc = true
+
+Rows with withheld or unavailable values should use:
+
+- include_in_concentration_calc = false
+
+Share-sum checks should flag material-years where included producer shares differ materially from the USGS world total.
+
+<!-- V2.1_CRITICAL_MINERALS_METHODOLOGY_END -->

@@ -34,3 +34,66 @@ Do not claim that this project:
 ## Required Boundary Sentence
 
 This project provides a scorecard-assisted descriptive judgment based on selected public indicators. It is not a forecast model, investment recommendation, policy prescription, geopolitical ranking, automatic risk score, or validated strategic exposure model.
+
+<!-- V2.1_CRITICAL_MINERALS_LIMITATIONS_START -->
+
+## V2.1 Limitations - Critical Minerals Concentration Tracker
+
+### What V2.1 measures
+
+V2.1 measures:
+
+- mine-production concentration
+
+It does not measure:
+
+- refining concentration
+- processing concentration
+- battery-grade chemical availability
+- trade dependency
+- import dependency
+- contracted supply
+- inventory buffers
+- policy risk
+- company-level procurement risk
+
+### What V2.1 does not claim
+
+V2.1 does not claim that concentration automatically means supply-chain risk.
+
+V2.1 does not produce:
+
+- investment recommendation
+- forecast model
+- geopolitical ranking
+- validated supply-chain risk model
+- country risk score
+
+The output should be interpreted as a structural concentration signal that may motivate further analysis.
+
+### Data limitations
+
+USGS values may be estimated, rounded, withheld, or unavailable.
+
+Rules:
+
+- withheld is not zero
+- not_available is not zero
+
+World total values may not exactly equal the sum of listed country values because of rounding, withheld rows, or unlisted producers.
+
+The calculation should use the USGS world total as denominator and document material discrepancies.
+
+### Material comparability limitation
+
+Raw production quantities are not directly comparable across materials because units and measurement bases can differ.
+
+Concentration metrics are comparable because they are based on within-material production shares.
+
+### 2025 exclusion
+
+V2.1 is scoped to 2020-2024.
+
+If 2025 is added later, it should be treated as a separate V2.2 latest-estimate layer and clearly labeled, not silently mixed into the V2.1 historical period.
+
+<!-- V2.1_CRITICAL_MINERALS_LIMITATIONS_END -->
