@@ -45,6 +45,7 @@ The project does not yet include a 2020-2025 trend analysis. The trend chart is 
 ## Repository Structure
 
 battery-market-strategic-exposure/
+
 - data/
   - curated/
     - battery_exposure_inputs.csv
@@ -73,11 +74,11 @@ battery-market-strategic-exposure/
 
 The curated input file is:
 
-data/curated/battery_exposure_inputs.csv
+    data/curated/battery_exposure_inputs.csv
 
 Current schema:
 
-year,region,indicator_name,indicator_category,value,unit,value_type,source_name,source_detail,source_year,is_outlook_context,include_in_scorecard,coverage_quality,region_mapping,notes
+    year,region,indicator_name,indicator_category,value,unit,value_type,source_name,source_detail,source_year,is_outlook_context,include_in_scorecard,coverage_quality,region_mapping,notes
 
 The first validated MVP input contains:
 
@@ -115,7 +116,7 @@ The lithium dependency component is inverted from lithium mine production share.
 
 ## Current MVP Results
 
-| Region | Demand intensity score | Lithium dependency score | Market concentration score | Scorecard exposure index | Observed pressure label | Evidence quality |
+| Region | Demand | Lithium dependency | Market concentration | Exposure index | Label | Evidence |
 |---|---:|---:|---:|---:|---|---|
 | China | 100.0 | 72.7 | 100.0 | 90.9 | higher_observed_pressure | medium |
 | EU | 10.0 | 99.9 | 0.0 | 36.6 | moderate_observed_pressure | medium |
@@ -137,7 +138,7 @@ The trend chart is intentionally postponed because the current MVP contains only
 
 Create or use the project virtual environment, install requirements, then run:
 
-.\.venv\Scripts\python.exe src\run_pipeline.py
+    .\.venv\Scripts\python.exe src\run_pipeline.py
 
 This generates:
 
@@ -163,7 +164,7 @@ The current MVP is latest-year only and should not be described as a 2020-2025 t
 
 The management-oriented brief is available at:
 
-outputs/briefs/strategic_exposure_brief.md
+    outputs/briefs/strategic_exposure_brief.md
 
 ## AI-Assisted Workflow
 
