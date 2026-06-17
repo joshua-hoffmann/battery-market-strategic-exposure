@@ -13,3 +13,5 @@ data/raw/
 
 .env
 .env.local
+
+private_learning/
