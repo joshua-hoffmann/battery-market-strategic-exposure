@@ -96,3 +96,20 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
   - no forecast
   - no full annual refining tracker
 - Prepared repository for a single governance-safe V2.2 milestone commit.
+
+## 2026-06-22 — V2.2 Portfolio Case Study Added
+
+- Added employer-facing V2.2 case study:
+  - docs/v2_2_processing_refining_concentration_case_study.md
+- Purpose:
+  - explain the V2.2 mining vs processing/refining concentration comparison
+  - preserve the 2024 snapshot boundary
+  - document the project as a portfolio-ready supply-chain analytics case
+- Claim boundary preserved:
+  - concentration signal only
+  - no risk score
+  - no investment signal
+  - no geopolitical ranking
+  - no forecast
+  - no policy recommendation
+  - no full annual refining tracker

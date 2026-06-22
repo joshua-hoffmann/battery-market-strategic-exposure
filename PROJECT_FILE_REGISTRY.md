@@ -86,3 +86,5 @@ Examples:
 | src/calculate_processing_refining_snapshot.py | Creates the V2.2 Battery Minerals Processing & Refining Concentration Snapshot by comparing V2.1 2024 mine-production top-three concentration with manually curated public IEA processing/refining snapshot evidence. |
 | data/processed/critical_minerals_processing_refining_snapshot.csv | Processed V2.2 snapshot output comparing mining top-three share with processing/refining top-three share or definition-limited proxy evidence. |
 | outputs/briefs/processing_refining_concentration_snapshot_brief.md | Markdown brief summarizing the V2.2 concentration-only snapshot, source limitations, and claim boundary. |
+
+| docs/v2_2_processing_refining_concentration_case_study.md | Documentation | Employer-facing V2.2 case study explaining the mining vs processing/refining concentration snapshot | Update if V2.2 interpretation or validated outputs change |
