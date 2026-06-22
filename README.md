@@ -142,3 +142,69 @@ This makes the project relevant for roles involving finance, business analytics,
 V2.1 is the current primary version of this project.
 
 Earlier V1 framing is retained only as project history and has been superseded by the USGS-only mine-production concentration tracker.
+
+---
+
+## V2.2 — Processing & Refining Concentration Snapshot
+
+V2.2 extends the V2.1 mine-production concentration analysis into a limited downstream concentration comparison.
+
+### Business question
+
+Which battery minerals remain most concentrated after mine production, and does processing/refining concentration create a stronger bottleneck than mining concentration?
+
+### Scope
+
+This module compares 2024 mine-production top-three concentration from the V2.1 dataset with public-source processing/refining top-three concentration evidence.
+
+Included minerals:
+
+- lithium
+- cobalt
+- nickel
+- natural graphite
+- manganese
+
+### Key output
+
+The V2.2 snapshot shows that, under the allowed 2024 top-three-share comparison, all five minerals have higher processing/refining concentration than mine-production concentration.
+
+| Mineral | Mining top-3 share | Processing/refining top-3 share | Higher bottleneck stage |
+|---|---:|---:|---|
+| lithium | 74.17% | 96.00% | processing/refining |
+| cobalt | 88.52% | 89.00% | processing/refining |
+| nickel | 76.49% | 78.00% | processing/refining |
+| natural graphite | 89.62% | 99.00% | processing/refining |
+| manganese | 74.00% | 95.00% | processing/refining |
+
+### Files
+
+- `src/calculate_processing_refining_snapshot.py`
+- `data/processed/critical_minerals_processing_refining_snapshot.csv`
+- `outputs/briefs/processing_refining_concentration_snapshot_brief.md`
+
+### Claim boundary
+
+V2.2 is a concentration signal only.
+
+It is not:
+
+- a risk score
+- an investment signal
+- a geopolitical ranking
+- a forecast
+- a policy recommendation
+- a full 2020–2024 annual refining tracker
+
+### Source limitations
+
+The processing/refining side uses public-source snapshot evidence rather than a complete annual country-level refinery dataset.
+
+Important limitations:
+
+- refining HHI is not calculated
+- refining top-one share is not calculated
+- manganese uses battery-grade manganese sulphate proxy evidence
+- processing/refining product definitions may not exactly match USGS mine-production categories
+- country-level concentration is not the same as company-level control
+

@@ -1,0 +1,137 @@
+﻿# PROJECT STATUS SNAPSHOT
+
+Generated: 2026-06-22 20:36:00
+
+Project Root:
+
+```text
+C:\Users\joshu\battery-market-strategic-exposure
+```
+
+## 1. Top-Level Folder State
+
+```text
+
+Mode   LastWriteTime       Length Name                      
+----   -------------       ------ ----                      
+d--h-- 22.06.2026 20:33:58        .git                      
+d----- 17.06.2026 21:19:19        .venv                     
+d----- 17.06.2026 20:56:04        data                      
+d----- 17.06.2026 21:38:47        docs                      
+d----- 17.06.2026 20:56:04        outputs                   
+d----- 17.06.2026 23:00:09        private_learning          
+d----- 22.06.2026 20:30:07        src                       
+-a---- 17.06.2026 22:51:00 144    .gitignore                
+-a---- 22.06.2026 20:35:59 4033   PROJECT_CHANGELOG.md      
+-a---- 22.06.2026 20:33:42 4639   PROJECT_FILE_REGISTRY.md  
+-a---- 22.06.2026 20:28:03 4183   PROJECT_STATE.md          
+-a---- 22.06.2026 20:33:58 6765   PROJECT_STATUS_SNAPSHOT.md
+-a---- 22.06.2026 20:35:59 8528   README.md                 
+-a---- 17.06.2026 20:56:06 22     requirements.txt          
+
+
+
+```
+
+## 2. Important Governance Files
+
+```text
+PROJECT_STATE.md                    EXISTS  2026-06-22 20:28:03  4183 bytes
+PROJECT_FILE_REGISTRY.md            EXISTS  2026-06-22 20:33:42  4639 bytes
+PROJECT_CHANGELOG.md                EXISTS  2026-06-22 20:35:59  4033 bytes
+PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-22 20:33:58  6765 bytes
+README.md                           EXISTS  2026-06-22 20:35:59  8528 bytes
+requirements.txt                    EXISTS  2026-06-17 20:56:06  22 bytes
+.gitignore                          EXISTS  2026-06-17 22:51:00  144 bytes
+```
+
+## 3. Source Scripts
+
+```text
+
+LastWriteTime       Length Name                                        
+-------------       ------ ----                                        
+18.06.2026 00:59:53  19528 calculate_critical_minerals_concentration.py
+17.06.2026 21:26:36  11753 calculate_exposure_indicators.py            
+22.06.2026 20:32:16  13028 calculate_processing_refining_snapshot.py   
+17.06.2026 21:37:33   4563 create_charts.py                            
+18.06.2026 01:05:39  14782 create_critical_minerals_charts.py          
+22.06.2026 20:28:03   3039 project_status_audit.ps1                    
+17.06.2026 21:15:24    702 run_pipeline.py                             
+
+
+
+```
+
+## 4. Data Folders
+
+```text
+
+LastWriteTime       Length FullName                                                                                    
+-------------       ------ --------                                                                                    
+17.06.2026 21:22:25   5442 C:\Users\joshu\battery-market-strategic-exposure\data\curated\battery_exposure_inputs.csv   
+18.06.2026 00:50:29 106626 C:\Users\joshu\battery-market-strategic-exposure\data\curated\critical_minerals_productio...
+17.06.2026 21:47:59   1657 C:\Users\joshu\battery-market-strategic-exposure\data\processed\battery_exposure_indicato...
+18.06.2026 00:59:55   9085 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_concent...
+18.06.2026 00:59:55 106918 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_country...
+18.06.2026 00:59:55   1459 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_latest_...
+22.06.2026 20:33:58   3555 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_process...
+
+
+
+```
+
+## 5. Output Files
+
+```text
+
+LastWriteTime       Length FullName                                                                                    
+-------------       ------ --------                                                                                    
+22.06.2026 20:33:58   3817 C:\Users\joshu\battery-market-strategic-exposure\outputs\briefs\processing_refining_conce...
+17.06.2026 21:41:10   4916 C:\Users\joshu\battery-market-strategic-exposure\outputs\briefs\strategic_exposure_brief.md 
+18.06.2026 01:05:42  80972 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_2024_hh...
+18.06.2026 01:05:43 103604 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_2024_to...
+18.06.2026 01:05:43 178295 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_share_c...
+18.06.2026 01:05:42 116811 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_top3_sh...
+17.06.2026 21:48:04  51848 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\exposure_components_2025.png
+17.06.2026 21:48:04  40075 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\exposure_score_by_region.png
+
+
+
+```
+
+## 6. Documentation and Learning Files
+
+```text
+
+LastWriteTime       Length FullName                                                                                    
+-------------       ------ --------                                                                                    
+18.06.2026 00:12:18  12097 C:\Users\joshu\battery-market-strategic-exposure\docs\data_sources.md                       
+18.06.2026 00:12:19   3597 C:\Users\joshu\battery-market-strategic-exposure\docs\limitations.md                        
+18.06.2026 00:12:19   7559 C:\Users\joshu\battery-market-strategic-exposure\docs\methodology.md                        
+17.06.2026 21:38:47   2524 C:\Users\joshu\battery-market-strategic-exposure\docs\validation_note.md                    
+17.06.2026 23:00:12   6372 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
+17.06.2026 23:00:12  40525 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
+17.06.2026 23:00:12   8180 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
+17.06.2026 23:00:12 245783 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
+17.06.2026 22:51:00  24854 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
+17.06.2026 23:00:12   3945 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
+
+
+
+```
+
+## 7. Git Status
+
+```text
+ M README.md
+?? PROJECT_CHANGELOG.md
+?? PROJECT_FILE_REGISTRY.md
+?? PROJECT_STATE.md
+?? PROJECT_STATUS_SNAPSHOT.md
+?? data/processed/critical_minerals_processing_refining_snapshot.csv
+?? outputs/briefs/processing_refining_concentration_snapshot_brief.md
+?? src/calculate_processing_refining_snapshot.py
+?? src/project_status_audit.ps1
+
+```
