@@ -1,6 +1,6 @@
 ﻿# PROJECT STATUS SNAPSHOT
 
-Generated: 2026-06-23 13:48:22
+Generated: 2026-06-23 14:04:08
 
 Project Root:
 
@@ -14,7 +14,7 @@ C:\Users\joshu\battery-market-strategic-exposure
 
 Mode   LastWriteTime       Length Name                      
 ----   -------------       ------ ----                      
-d--h-- 23.06.2026 13:39:23        .git                      
+d--h-- 23.06.2026 13:58:00        .git                      
 d----- 17.06.2026 21:19:19        .venv                     
 d----- 17.06.2026 20:56:04        data                      
 d----- 23.06.2026 02:38:46        docs                      
@@ -22,10 +22,10 @@ d----- 23.06.2026 02:15:25        outputs
 d----- 17.06.2026 23:00:09        private_learning          
 d----- 23.06.2026 13:44:07        src                       
 -a---- 23.06.2026 02:53:50 184    .gitignore                
--a---- 23.06.2026 13:48:21 7172   PROJECT_CHANGELOG.md      
+-a---- 23.06.2026 14:04:07 8041   PROJECT_CHANGELOG.md      
 -a---- 23.06.2026 13:48:21 5847   PROJECT_FILE_REGISTRY.md  
--a---- 23.06.2026 13:48:21 5665   PROJECT_STATE.md          
--a---- 23.06.2026 13:39:23 5969   PROJECT_STATUS_SNAPSHOT.md
+-a---- 23.06.2026 14:04:07 6933   PROJECT_STATE.md          
+-a---- 23.06.2026 13:48:22 6596   PROJECT_STATUS_SNAPSHOT.md
 -a---- 23.06.2026 12:29:57 8086   README.md                 
 -a---- 17.06.2026 20:56:06 22     requirements.txt          
 
@@ -36,10 +36,10 @@ d----- 23.06.2026 13:44:07        src
 ## 2. Important Governance Files
 
 ```text
-PROJECT_STATE.md                    EXISTS  2026-06-23 13:48:21  5665 bytes
+PROJECT_STATE.md                    EXISTS  2026-06-23 14:04:07  6933 bytes
 PROJECT_FILE_REGISTRY.md            EXISTS  2026-06-23 13:48:21  5847 bytes
-PROJECT_CHANGELOG.md                EXISTS  2026-06-23 13:48:21  7172 bytes
-PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-23 13:39:23  5969 bytes
+PROJECT_CHANGELOG.md                EXISTS  2026-06-23 14:04:07  8041 bytes
+PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-23 13:48:22  6596 bytes
 README.md                           EXISTS  2026-06-23 12:29:57  8086 bytes
 requirements.txt                    EXISTS  2026-06-17 20:56:06  22 bytes
 .gitignore                          EXISTS  2026-06-23 02:53:50  184 bytes
@@ -68,17 +68,17 @@ LastWriteTime       Length Name
 
 ```text
 
-LastWriteTime       Length FullName                                                                                    
--------------       ------ --------                                                                                    
-17.06.2026 21:22:25   5442 C:\Users\joshu\battery-market-strategic-exposure\data\curated\battery_exposure_inputs.csv   
-18.06.2026 00:50:29 106626 C:\Users\joshu\battery-market-strategic-exposure\data\curated\critical_minerals_productio...
-23.06.2026 13:44:05    405 C:\Users\joshu\battery-market-strategic-exposure\data\curated\v23_battery_grade_downstrea...
-17.06.2026 21:47:59   1657 C:\Users\joshu\battery-market-strategic-exposure\data\processed\battery_exposure_indicato...
-18.06.2026 00:59:55   9085 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_concent...
-18.06.2026 00:59:55 106918 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_country...
-18.06.2026 00:59:55   1459 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_latest_...
-22.06.2026 20:33:58   3555 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_process...
-23.06.2026 13:45:52   1046 C:\Users\joshu\battery-market-strategic-exposure\data\processed\v23_downstream_concentrat...
+LastWriteTime       Length FullName                                                                                                          
+-------------       ------ --------                                                                                                          
+17.06.2026 21:22:25   5442 C:\Users\joshu\battery-market-strategic-exposure\data\curated\battery_exposure_inputs.csv                         
+18.06.2026 00:50:29 106626 C:\Users\joshu\battery-market-strategic-exposure\data\curated\critical_minerals_production_inputs.csv             
+23.06.2026 13:54:33   2365 C:\Users\joshu\battery-market-strategic-exposure\data\curated\v23_battery_grade_downstream_sources.csv            
+17.06.2026 21:47:59   1657 C:\Users\joshu\battery-market-strategic-exposure\data\processed\battery_exposure_indicators.csv                   
+18.06.2026 00:59:55   9085 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_concentration_metrics.csv       
+18.06.2026 00:59:55 106918 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_country_shares.csv              
+18.06.2026 00:59:55   1459 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_latest_ranking.csv              
+22.06.2026 20:33:58   3555 C:\Users\joshu\battery-market-strategic-exposure\data\processed\critical_minerals_processing_refining_snapshot.csv
+23.06.2026 13:54:40   2986 C:\Users\joshu\battery-market-strategic-exposure\data\processed\v23_downstream_concentration_evidence_tracker.csv 
 
 
 
@@ -88,16 +88,16 @@ LastWriteTime       Length FullName
 
 ```text
 
-LastWriteTime       Length FullName                                                                                    
--------------       ------ --------                                                                                    
-23.06.2026 12:41:37   3831 C:\Users\joshu\battery-market-strategic-exposure\outputs\briefs\processing_refining_conce...
-23.06.2026 12:41:37   4806 C:\Users\joshu\battery-market-strategic-exposure\outputs\briefs\strategic_exposure_brief.md 
-18.06.2026 01:05:42  80972 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_2024_hh...
-18.06.2026 01:05:43 103604 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_2024_to...
-18.06.2026 01:05:43 178295 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_share_c...
-18.06.2026 01:05:42 116811 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_top3_sh...
-17.06.2026 21:48:04  51848 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\exposure_components_2025.png
-17.06.2026 21:48:04  40075 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\exposure_score_by_region.png
+LastWriteTime       Length FullName                                                                                                          
+-------------       ------ --------                                                                                                          
+23.06.2026 12:41:37   3831 C:\Users\joshu\battery-market-strategic-exposure\outputs\briefs\processing_refining_concentration_snapshot_brie...
+23.06.2026 12:41:37   4806 C:\Users\joshu\battery-market-strategic-exposure\outputs\briefs\strategic_exposure_brief.md                       
+18.06.2026 01:05:42  80972 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_2024_hhi_ranking.png            
+18.06.2026 01:05:43 103604 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_2024_top1_top3_comparison.png   
+18.06.2026 01:05:43 178295 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_share_coverage_diagnostic.png   
+18.06.2026 01:05:42 116811 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\critical_minerals_top3_share_trend.png            
+17.06.2026 21:48:04  51848 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\exposure_components_2025.png                      
+17.06.2026 21:48:04  40075 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\exposure_score_by_region.png                      
 
 
 
@@ -107,14 +107,14 @@ LastWriteTime       Length FullName
 
 ```text
 
-LastWriteTime       Length FullName                                                                                    
--------------       ------ --------                                                                                    
-23.06.2026 12:50:28  12279 C:\Users\joshu\battery-market-strategic-exposure\docs\data_sources.md                       
-23.06.2026 12:50:28   3525 C:\Users\joshu\battery-market-strategic-exposure\docs\limitations.md                        
-23.06.2026 12:50:28   7582 C:\Users\joshu\battery-market-strategic-exposure\docs\methodology.md                        
-23.06.2026 12:35:33   5038 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_1_mine_production_concentration_...
-23.06.2026 12:35:33   5767 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_2_processing_refining_concentrat...
-23.06.2026 12:50:28   2525 C:\Users\joshu\battery-market-strategic-exposure\docs\validation_note.md                    
+LastWriteTime       Length FullName                                                                                                  
+-------------       ------ --------                                                                                                  
+23.06.2026 12:50:28  12279 C:\Users\joshu\battery-market-strategic-exposure\docs\data_sources.md                                     
+23.06.2026 12:50:28   3525 C:\Users\joshu\battery-market-strategic-exposure\docs\limitations.md                                      
+23.06.2026 12:50:28   7582 C:\Users\joshu\battery-market-strategic-exposure\docs\methodology.md                                      
+23.06.2026 12:35:33   5038 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_1_mine_production_concentration_case_study.md    
+23.06.2026 12:35:33   5767 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_2_processing_refining_concentration_case_study.md
+23.06.2026 12:50:28   2525 C:\Users\joshu\battery-market-strategic-exposure\docs\validation_note.md                                  
 
 
 
@@ -124,11 +124,6 @@ LastWriteTime       Length FullName
 
 ```text
  M PROJECT_CHANGELOG.md
- M PROJECT_FILE_REGISTRY.md
  M PROJECT_STATE.md
- M PROJECT_STATUS_SNAPSHOT.md
-?? data/curated/v23_battery_grade_downstream_sources.csv
-?? data/processed/v23_downstream_concentration_evidence_tracker.csv
-?? src/v23_downstream_concentration_evidence_tracker.py
 
 ```

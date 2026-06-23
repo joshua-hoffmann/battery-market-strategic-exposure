@@ -165,3 +165,24 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 - Preserved V2.1 and V2.2 behavior.
 - No public documentation, charts, briefs, or README updates were created during this phase.
 
+
+## 2026-06-23 — V2.3 Phase 3 First Controlled Evidence Batch
+
+- Added first controlled source-backed curated evidence rows for:
+  - lithium
+  - natural_graphite
+  - manganese
+
+- Re-ran:
+  - src/v23_downstream_concentration_evidence_tracker.py
+
+- Generated processed V2.3 output with 3 rows:
+  - lithium: directional-only downstream battery-grade conversion evidence
+  - natural_graphite: directional-only downstream battery-grade conversion evidence
+  - manganese: source-reported downstream top-1 evidence for battery-grade manganese sulphate
+
+- Manganese downstream top-1 was populated from source-reported evidence.
+- HHI, top-three, stage-gap, and strongest-stage calculations remain blocked due to insufficient comparable evidence.
+- No public-facing V2.3 documentation, charts, briefs, or README updates were created.
+- V2.1 and V2.2 files remain unchanged.
+

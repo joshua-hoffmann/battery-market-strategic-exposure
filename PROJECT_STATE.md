@@ -179,3 +179,33 @@ Next V2.3 phase:
 
 Add source-backed curated evidence rows with explicit denominator type, geography basis, comparison-year basis, source confidence, evidence tier, missingness status, and battery-grade flags.
 
+
+## V2.3 Phase 3 Completed
+
+V2.3 Battery Minerals Downstream Concentration Evidence Tracker now includes a first controlled source-backed evidence batch.
+
+Current evidence rows:
+
+- Lithium: directional-only evidence for battery-grade lithium chemicals.
+- Natural graphite: directional-only evidence for battery-grade graphite production / anode-grade graphite.
+- Manganese: source-reported top-1 evidence for China share of battery-grade manganese sulphate supply.
+
+Current processed status:
+
+- data/processed/v23_downstream_concentration_evidence_tracker.csv contains 3 processed rows.
+- Manganese downstream top-1 is populated at 95.0.
+- Lithium and natural graphite remain non-numeric / directional-only.
+- Overall comparability remains insufficient_evidence for all three rows.
+- HHI, top-three, stage-gap, and strongest-stage calculations remain blocked.
+
+Current public-output status:
+
+- No V2.3 public-facing documentation has been generated.
+- No V2.3 charts have been generated.
+- No V2.3 brief has been generated.
+- README.md has not been updated for V2.3 Phase 3.
+
+Next V2.3 phase:
+
+Controlled evidence expansion may continue, but public-facing documentation should remain blocked until enough comparable evidence exists to support bounded public claims.
+
