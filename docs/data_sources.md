@@ -410,3 +410,8 @@ Rows with withheld or not_available values should not be included in concentrati
 
 <!-- V2.1_CRITICAL_MINERALS_DATA_SOURCES_END -->
 
+
+## V2.3 Source Coverage Boundary
+
+V2.3 source coverage is incomplete across downstream stages. Source references are included only where they support the stated downstream evidence, and missing numeric coverage is preserved as a limitation rather than estimated or inferred.
+

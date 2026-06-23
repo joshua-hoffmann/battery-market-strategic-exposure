@@ -313,3 +313,8 @@ Share-sum checks should flag material-years where included producer shares diffe
 
 <!-- V2.1_CRITICAL_MINERALS_METHODOLOGY_END -->
 
+
+## V2.3 Method Boundary
+
+V2.3 applies the project’s evidence-discipline approach to downstream concentration evidence. Because numeric downstream concentration coverage is currently limited, the module preserves directional-only observations rather than converting them into comparable concentration measurements.
+

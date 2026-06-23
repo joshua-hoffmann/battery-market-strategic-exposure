@@ -1,6 +1,6 @@
 ﻿# PROJECT STATUS SNAPSHOT
 
-Generated: 2026-06-23 14:09:15
+Generated: 2026-06-23 15:28:53
 
 Project Root:
 
@@ -14,7 +14,7 @@ C:\Users\joshu\battery-market-strategic-exposure
 
 Mode   LastWriteTime       Length Name                      
 ----   -------------       ------ ----                      
-d--h-- 23.06.2026 14:09:11        .git                      
+d--h-- 23.06.2026 14:11:09        .git                      
 d----- 17.06.2026 21:19:19        .venv                     
 d----- 17.06.2026 20:56:04        data                      
 d----- 23.06.2026 02:38:46        docs                      
@@ -22,11 +22,11 @@ d----- 23.06.2026 02:15:25        outputs
 d----- 17.06.2026 23:00:09        private_learning          
 d----- 23.06.2026 13:44:07        src                       
 -a---- 23.06.2026 02:53:50 184    .gitignore                
--a---- 23.06.2026 14:09:15 8774   PROJECT_CHANGELOG.md      
+-a---- 23.06.2026 15:28:51 9192   PROJECT_CHANGELOG.md      
 -a---- 23.06.2026 13:48:21 5847   PROJECT_FILE_REGISTRY.md  
--a---- 23.06.2026 14:09:15 8256   PROJECT_STATE.md          
--a---- 23.06.2026 14:04:08 6926   PROJECT_STATUS_SNAPSHOT.md
--a---- 23.06.2026 12:29:57 8086   README.md                 
+-a---- 23.06.2026 15:28:51 8750   PROJECT_STATE.md          
+-a---- 23.06.2026 14:09:15 7053   PROJECT_STATUS_SNAPSHOT.md
+-a---- 23.06.2026 15:28:51 8340   README.md                 
 -a---- 17.06.2026 20:56:06 22     requirements.txt          
 
 
@@ -36,11 +36,11 @@ d----- 23.06.2026 13:44:07        src
 ## 2. Important Governance Files
 
 ```text
-PROJECT_STATE.md                    EXISTS  2026-06-23 14:09:15  8256 bytes
+PROJECT_STATE.md                    EXISTS  2026-06-23 15:28:51  8750 bytes
 PROJECT_FILE_REGISTRY.md            EXISTS  2026-06-23 13:48:21  5847 bytes
-PROJECT_CHANGELOG.md                EXISTS  2026-06-23 14:09:15  8774 bytes
-PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-23 14:04:08  6926 bytes
-README.md                           EXISTS  2026-06-23 12:29:57  8086 bytes
+PROJECT_CHANGELOG.md                EXISTS  2026-06-23 15:28:51  9192 bytes
+PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-23 14:09:15  7053 bytes
+README.md                           EXISTS  2026-06-23 15:28:51  8340 bytes
 requirements.txt                    EXISTS  2026-06-17 20:56:06  22 bytes
 .gitignore                          EXISTS  2026-06-23 02:53:50  184 bytes
 ```
@@ -109,9 +109,9 @@ LastWriteTime       Length FullName
 
 LastWriteTime       Length FullName                                                                                                  
 -------------       ------ --------                                                                                                  
-23.06.2026 12:50:28  12279 C:\Users\joshu\battery-market-strategic-exposure\docs\data_sources.md                                     
-23.06.2026 12:50:28   3525 C:\Users\joshu\battery-market-strategic-exposure\docs\limitations.md                                      
-23.06.2026 12:50:28   7582 C:\Users\joshu\battery-market-strategic-exposure\docs\methodology.md                                      
+23.06.2026 15:28:51  12557 C:\Users\joshu\battery-market-strategic-exposure\docs\data_sources.md                                     
+23.06.2026 15:28:51   3961 C:\Users\joshu\battery-market-strategic-exposure\docs\limitations.md                                      
+23.06.2026 15:28:51   7901 C:\Users\joshu\battery-market-strategic-exposure\docs\methodology.md                                      
 23.06.2026 12:35:33   5038 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_1_mine_production_concentration_case_study.md    
 23.06.2026 12:35:33   5767 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_2_processing_refining_concentration_case_study.md
 23.06.2026 12:50:28   2525 C:\Users\joshu\battery-market-strategic-exposure\docs\validation_note.md                                  
@@ -125,7 +125,9 @@ LastWriteTime       Length FullName
 ```text
  M PROJECT_CHANGELOG.md
  M PROJECT_STATE.md
- M data/curated/v23_battery_grade_downstream_sources.csv
- M data/processed/v23_downstream_concentration_evidence_tracker.csv
+ M README.md
+ M docs/data_sources.md
+ M docs/limitations.md
+ M docs/methodology.md
 
 ```

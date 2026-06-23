@@ -197,3 +197,11 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 - HHI, top-three, stage-gap, and strongest-stage calculations remain blocked.
 - No README, docs, charts, briefs, or public-facing claims were created.
 
+
+## 2026-06-23 — V2.3 Public Documentation Boundary Added
+
+- Added bounded public documentation language for V2.3.
+- Clarified that V2.3 is an evidence-limited downstream concentration evidence module.
+- Preserved public emphasis on completed V2.1 and V2.2 outputs.
+- Did not create a V2.3 brief, chart, case study, risk score, forecast, policy claim, investment signal, or completed downstream bottleneck result.
+

@@ -98,3 +98,8 @@ If later-year data is added, it should be treated as a separate extension layer 
 
 <!-- V2.1_CRITICAL_MINERALS_LIMITATIONS_END -->
 
+
+## V2.3 Evidence Boundary
+
+The V2.3 downstream concentration evidence module is not presented as a completed downstream bottleneck result. Current coverage includes limited numeric downstream concentration evidence, while other observations remain directional only. The module should not be interpreted as a risk score, investment signal, geopolitical ranking, forecast, policy recommendation, or full downstream supply-chain model.
+

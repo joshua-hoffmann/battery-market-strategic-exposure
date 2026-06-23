@@ -238,3 +238,15 @@ Next V2.3 phase:
 
 Decide whether to continue controlled evidence expansion or pause V2.3 until stronger source-backed numeric evidence is available.
 
+
+## V2.3 Public Documentation Boundary
+
+V2.3 is now documented as an evidence-limited extension rather than a completed downstream bottleneck result.
+
+Current public-facing status:
+
+- V2.1 and V2.2 remain the completed public-facing analytical outputs.
+- V2.3 is mentioned only as a bounded downstream concentration evidence module.
+- V2.3 remains paused pending stronger source-backed numeric downstream concentration coverage.
+- No V2.3 public brief, chart, or case study has been created.
+

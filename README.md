@@ -199,3 +199,8 @@ Important limitations:
 
 
 
+
+## V2.3 Evidence-Limited Extension
+
+V2.3 has been initialized to track downstream concentration evidence across selected battery minerals, but current public documentation treats it as evidence-limited pending stronger source-backed numeric coverage.
+
