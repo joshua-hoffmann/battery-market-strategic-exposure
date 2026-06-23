@@ -1,10 +1,10 @@
 ﻿# Battery Minerals Bottleneck Analysis: Mining vs. Processing Concentration
 
-## Portfolio-ready project summary
+## Project Summary
 
 This case study extends a battery market strategic exposure project from upstream mine-production concentration into downstream processing and refining concentration.
 
-The project asks whether the most important concentration bottleneck sits where battery minerals are mined, or whether the stronger strategic exposure appears later in the supply chain, where raw minerals are processed or refined into battery-relevant materials.
+The analysis asks whether the stronger concentration bottleneck appears at the mine-production stage or later in the supply chain, where raw minerals are processed or refined into battery-relevant materials.
 
 V2.1 established a mine-production concentration baseline using USGS-only data for lithium, cobalt, nickel, natural graphite, and manganese. V2.2 adds a focused 2024 processing/refining concentration snapshot and compares downstream top-three country concentration against the V2.1 mining baseline.
 
@@ -79,7 +79,7 @@ The analysis preserves several boundaries:
 - processing/refining definitions may not map perfectly onto USGS mine-production categories
 - country-level concentration is not the same as company-level control
 
-This makes the project more useful as a decision-support artifact because it separates what the data shows from what it does not show.
+This keeps the analysis bounded by separating what the data shows from what it does not show.
 
 ## Key Finding
 
@@ -104,45 +104,7 @@ Cobalt and nickel also show higher downstream concentration, but the gap is much
 - **cobalt:** +0.48 percentage points
 - **nickel:** +1.51 percentage points
 
-The main strategic interpretation is that mining concentration alone may understate supply-chain exposure for some battery minerals. For this 2024 snapshot, the downstream processing/refining stage is the higher concentration bottleneck for all five minerals in scope.
-
-## What this demonstrates
-
-### Python analytics
-
-The project demonstrates the ability to structure a data pipeline around a clear business question, generate processed outputs, and translate the result into a decision-ready brief.
-
-The value is not only that the calculation runs. The value is that the calculation is tied to an explicit analytical purpose: comparing bottleneck stages across the battery minerals supply chain.
-
-### Commodity / supply-chain reasoning
-
-The analysis treats battery minerals as part of a staged value chain rather than a single raw-material category.
-
-That distinction matters because strategic exposure can emerge at different stages:
-
-**mine production → processing/refining → battery-grade material availability → downstream manufacturing exposure**
-
-V2.2 focuses specifically on the mining vs. processing/refining comparison.
-
-### Public-source data discipline
-
-The project works within the limits of available public evidence instead of filling gaps with unsupported assumptions.
-
-It keeps V2.1’s USGS-only mine-production baseline separate from the downstream processing/refining snapshot, which helps prevent category mixing and source overreach.
-
-### Claim-boundary discipline
-
-The case study deliberately avoids converting concentration into a broader conclusion the data does not support.
-
-It does not claim that the most concentrated mineral is automatically the highest-risk mineral. It does not claim that country concentration equals company control. It does not claim that downstream concentration creates an investment conclusion.
-
-### Strategic interpretation without overclaiming
-
-The project still produces a useful strategic signal:
-
-**For the five battery minerals analyzed, the 2024 processing/refining stage appears more concentrated than mine production.**
-
-That is a meaningful business insight, but it remains bounded to the metric, stage definition, source coverage, and time period used.
+The main interpretation is that mine-production concentration alone may understate stage-level concentration for some battery minerals. For this 2024 snapshot, the downstream processing/refining stage is the higher concentration bottleneck for all five minerals in scope.
 
 ## Limitations
 

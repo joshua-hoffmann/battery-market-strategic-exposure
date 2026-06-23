@@ -1,6 +1,6 @@
 ﻿# PROJECT STATUS SNAPSHOT
 
-Generated: 2026-06-23 12:29:58
+Generated: 2026-06-23 12:35:34
 
 Project Root:
 
@@ -14,7 +14,7 @@ C:\Users\joshu\battery-market-strategic-exposure
 
 Mode   LastWriteTime       Length Name                      
 ----   -------------       ------ ----                      
-d--h-- 23.06.2026 03:02:20        .git                      
+d--h-- 23.06.2026 12:31:32        .git                      
 d----- 17.06.2026 21:19:19        .venv                     
 d----- 17.06.2026 20:56:04        data                      
 d----- 23.06.2026 02:38:46        docs                      
@@ -24,7 +24,7 @@ d----- 22.06.2026 20:30:07        src
 -a---- 23.06.2026 03:02:12 6363   PROJECT_CHANGELOG.md      
 -a---- 23.06.2026 03:02:12 5206   PROJECT_FILE_REGISTRY.md  
 -a---- 23.06.2026 03:02:12 4802   PROJECT_STATE.md          
--a---- 23.06.2026 03:02:14 5997   PROJECT_STATUS_SNAPSHOT.md
+-a---- 23.06.2026 12:29:59 5903   PROJECT_STATUS_SNAPSHOT.md
 -a---- 23.06.2026 12:29:57 8086   README.md                 
 -a---- 17.06.2026 20:56:06 22     requirements.txt          
 
@@ -38,7 +38,7 @@ d----- 22.06.2026 20:30:07        src
 PROJECT_STATE.md                    EXISTS  2026-06-23 03:02:12  4802 bytes
 PROJECT_FILE_REGISTRY.md            EXISTS  2026-06-23 03:02:12  5206 bytes
 PROJECT_CHANGELOG.md                EXISTS  2026-06-23 03:02:12  6363 bytes
-PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-23 03:02:14  5997 bytes
+PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-23 12:29:59  5903 bytes
 README.md                           EXISTS  2026-06-23 12:29:57  8086 bytes
 requirements.txt                    EXISTS  2026-06-17 20:56:06  22 bytes
 .gitignore                          EXISTS  2026-06-23 02:53:50  184 bytes
@@ -108,8 +108,8 @@ LastWriteTime       Length FullName
 18.06.2026 00:12:18  12097 C:\Users\joshu\battery-market-strategic-exposure\docs\data_sources.md                       
 18.06.2026 00:12:19   3597 C:\Users\joshu\battery-market-strategic-exposure\docs\limitations.md                        
 18.06.2026 00:12:19   7559 C:\Users\joshu\battery-market-strategic-exposure\docs\methodology.md                        
-23.06.2026 02:45:15   5044 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_1_mine_production_concentration_...
-23.06.2026 02:50:05   7832 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_2_processing_refining_concentrat...
+23.06.2026 12:35:33   5038 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_1_mine_production_concentration_...
+23.06.2026 12:35:33   5767 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_2_processing_refining_concentrat...
 17.06.2026 21:38:47   2524 C:\Users\joshu\battery-market-strategic-exposure\docs\validation_note.md                    
 
 
@@ -119,6 +119,7 @@ LastWriteTime       Length FullName
 ## 7. Git Status
 
 ```text
- M README.md
+ M docs/v2_1_mine_production_concentration_case_study.md
+ M docs/v2_2_processing_refining_concentration_case_study.md
 
 ```

@@ -36,7 +36,7 @@ The core signals are:
 - Herfindahl-Hirschman Index, or HHI
 - share coverage validation
 
-The purpose is to convert raw mine-production data into decision-ready concentration signals.
+The purpose is to convert raw mine-production data into structured concentration metrics.
 
 ## Key 2024 Output
 
@@ -112,7 +112,7 @@ The main README visual outputs are:
 2. Top-three producer share trend over time
 3. 2024 comparison of largest-producer share and top-three share
 
-The share coverage diagnostic chart is retained as a method and audit output rather than as a main portfolio visual.
+The share coverage diagnostic chart is retained as a method and audit output rather than as a main documentation visual.
 
 ## Claim Boundary
 
@@ -138,7 +138,7 @@ The results show where mine production is concentrated by country, but they do n
 - pricing power
 - downstream battery supply-chain resilience
 
-Concentration is therefore treated as a decision-relevant supply-structure signal, not as a complete measure of mineral supply risk.
+Concentration is therefore treated as an observed supply-structure metric, not as a complete measure of mineral supply risk.
 
 ## Link to V2.2
 
@@ -153,4 +153,5 @@ The follow-up question is:
 V2.2 is documented separately in:
 
     docs/v2_2_processing_refining_concentration_case_study.md
+
 
