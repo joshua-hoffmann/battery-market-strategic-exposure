@@ -4,15 +4,15 @@
 
 This project analyzes supply concentration patterns in selected battery-related critical minerals using a USGS-only mine-production dataset.
 
-The goal is to convert raw production data into decision-ready concentration signals that help answer a focused business question: which battery minerals show the highest observed mine-production concentration, and whether concentration has improved or worsened over time.
+The goal is to convert raw production data into structured concentration metrics for a focused analytical question: which battery minerals show the highest observed mine-production concentration, and whether concentration has improved or worsened over time.
 
-The project is designed as a business analytics and decision-support artifact, not as a geopolitical model, investment recommendation, or forecast.
+The project is designed as a reproducible concentration-analysis project, not as a geopolitical model, investment recommendation, or forecast.
 
 ## V2.1 — Critical Minerals Mine-Production Concentration Tracker
 
 V2.1 is a USGS-only critical minerals mine-production concentration tracker covering lithium, cobalt, nickel, natural graphite, and manganese from 2020 to 2024.
 
-The pipeline uses curated mine-production inputs, calculates producer-level country shares, derives concentration metrics, ranks the latest year, and generates visual outputs for README documentation and public project presentation.
+The pipeline uses curated mine-production inputs, calculates producer-level country shares, derives concentration metrics, ranks the latest year, and generates visual outputs for project documentation.
 
 V2.1 focuses on observed production concentration. It does not convert concentration into a risk score.
 
@@ -22,7 +22,7 @@ Detailed case study:
 
 ## Business Question
 
-Which battery minerals show the highest and most persistent supply concentration, and has concentration improved or worsened over time?
+Which battery minerals show the highest and most persistent observed mine-production concentration, and has concentration improved or worsened over time?
 
 ## What V2.1 Measures
 
@@ -128,9 +128,9 @@ Concentration is therefore treated as a decision-relevant supply-structure signa
 
 ## Version Note
 
-V2.1 is the current primary version of this project.
+V2.1 establishes the mine-production concentration baseline for this project.
 
-Earlier V1 framing is retained only as project history and has been superseded by the USGS-only mine-production concentration tracker.
+Earlier V1 framing is retained only as project history and has been superseded by the V2.1 USGS-only mine-production concentration tracker and the V2.2 processing/refining concentration snapshot.
 
 ---
 
@@ -196,5 +196,6 @@ Important limitations:
 - manganese uses battery-grade manganese sulphate proxy evidence
 - processing/refining product definitions may not exactly match USGS mine-production categories
 - country-level concentration is not the same as company-level control
+
 
 
