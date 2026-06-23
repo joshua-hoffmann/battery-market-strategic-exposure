@@ -16,6 +16,10 @@ The pipeline uses curated mine-production inputs, calculates producer-level coun
 
 V2.1 focuses on observed production concentration. It does not convert concentration into a risk score.
 
+Detailed case study:
+
+    docs/v2_1_mine_production_concentration_case_study.md
+
 ## Business Question
 
 Which battery minerals show the highest and most persistent supply concentration, and has concentration improved or worsened over time?
@@ -207,4 +211,5 @@ Important limitations:
 - manganese uses battery-grade manganese sulphate proxy evidence
 - processing/refining product definitions may not exactly match USGS mine-production categories
 - country-level concentration is not the same as company-level control
+
 

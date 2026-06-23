@@ -109,3 +109,9 @@ Examples:
 | outputs/linkedin/v2_2_processing_refining_followup/V2_2_ENGAGEMENT_GUIDE.md | Publishing support | Defines safe response framing after V2.2 is posted | Update if claim boundary changes |
 | outputs/linkedin/v2_2_processing_refining_followup/V2_2_ASSET_LOCATION_CHECK.md | Asset check | Documents whether final V2.2 PNG assets were found locally | Regenerate before publishing if assets move |
 | outputs/linkedin/v2_2_processing_refining_followup/assets/ | Publishing asset folder | Optional local storage for final V2.2 carousel PNGs | Keep final posted assets here if storing images in repo is desired |
+
+## V2.1 Case Study Documentation
+
+| File | Type | Purpose | Update Rule |
+|---|---|---|---|
+| docs/v2_1_mine_production_concentration_case_study.md | Documentation | Standalone employer-facing V2.1 case study for the USGS-only mine-production concentration tracker | Update when V2.1 methodology, outputs, or claim boundary changes |

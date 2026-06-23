@@ -156,3 +156,17 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 
 - Purpose:
   Make the V2.2 follow-up post ready to execute without reconstructing captions, comments, claim boundaries, or checklist logic.
+
+## 2026-06-23 — V2.1 Standalone Case Study Added
+
+- Added standalone V2.1 case-study documentation:
+  - docs/v2_1_mine_production_concentration_case_study.md
+
+- Updated README with a direct link to the V2.1 case study.
+
+- Updated governance records:
+  - PROJECT_FILE_REGISTRY.md
+  - PROJECT_STATE.md
+
+- Purpose:
+  Improve GitHub viewer experience by making V2.1 easier to find as a standalone case study, matching the V2.2 documentation pattern.

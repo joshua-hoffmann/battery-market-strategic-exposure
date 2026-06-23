@@ -181,3 +181,18 @@ V2.2 should be posted in the target window:
 The V2.2 post should explicitly build on the published V2.1 upstream baseline post:
 
 https://www.linkedin.com/feed/update/urn:li:ugcPost:7474976109584101377/
+
+## V2.1 Standalone Case Study Documentation
+
+As of 2026-06-23, V2.1 has a standalone GitHub case-study document:
+
+docs/v2_1_mine_production_concentration_case_study.md
+
+Purpose:
+
+- make V2.1 easier to find from the GitHub viewer perspective
+- mirror the V2.2 case-study documentation structure
+- clarify that V2.1 is the upstream mine-production concentration baseline
+- preserve the V2.1 claim boundary separately from the README
+
+V2.1 remains the upstream baseline for the V2.2 processing/refining comparison.
