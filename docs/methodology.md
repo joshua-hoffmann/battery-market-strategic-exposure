@@ -2,15 +2,15 @@
 
 ## Purpose
 
-This document defines the methodology for the Battery Market Strategic Exposure Case Study.
+This document defines the methodology for the Battery Market Strategic Exposure project.
 
 The project uses selected public-data indicators to compare regional exposure to battery value-chain pressure from 2020 to 2025.
 
-## Decision Form
+## Analytical Form
 
-The permitted decision form is:
+The permitted analytical form is:
 
-scorecard-assisted descriptive judgment
+descriptive scorecard interpretation
 
 The project does not support:
 
@@ -19,7 +19,7 @@ The project does not support:
 - forecast model
 - policy recommendation model
 - geopolitical ranking
-- validated strategic exposure model
+- validated exposure model
 - automatic risk score
 
 ## Working Definition
@@ -34,7 +34,7 @@ Exposure does not automatically mean weakness. High demand can reflect market st
 
 ## Regions
 
-The MVP uses four regional groups:
+The initial scorecard uses four regional groups:
 
 - China
 - EU
@@ -65,7 +65,7 @@ Allowed curated indicator categories:
 - market_concentration
 - policy_context
 
-For the MVP, policy_context rows are documented but excluded from score calculation.
+For the initial scorecard, policy_context rows are documented but excluded from score calculation.
 
 ## Curated Input Schema
 
@@ -135,7 +135,7 @@ It should be interpreted together with:
 
 ## Observed Pressure Labels
 
-The MVP uses descriptive labels:
+The initial scorecard uses descriptive labels:
 
 - 0-33: lower_observed_pressure
 - 34-66: moderate_observed_pressure
@@ -201,17 +201,17 @@ V2.1 is a descriptive concentration tracker.
 
 It does not create an investment recommendation, a forecast model, a geopolitical ranking, or a validated supply-chain risk model.
 
-Decision form:
+Analytical form:
 
-- scorecard-assisted descriptive judgment
+- descriptive scorecard interpretation
 
 Core signal:
 
-- structural supply concentration signal
+- observed supply concentration metric
 
 Not:
 
-- final risk score
+- risk score
 
 ### Unit discipline
 
@@ -312,3 +312,4 @@ Rows with withheld or unavailable values should use:
 Share-sum checks should flag material-years where included producer shares differ materially from the USGS world total.
 
 <!-- V2.1_CRITICAL_MINERALS_METHODOLOGY_END -->
+

@@ -2,7 +2,7 @@
 
 ## Status
 
-The first latest-year MVP pipeline run has passed validation.
+The first latest-year scorecard pipeline run has passed validation.
 
 The project currently contains a manually curated 2025 scorecard input, a processed scorecard output, and two generated charts.
 
@@ -44,7 +44,7 @@ Generated chart files:
 - outputs/charts/exposure_score_by_region.png
 - outputs/charts/exposure_components_2025.png
 
-The trend chart is intentionally postponed because the MVP currently contains only one scorecard year.
+The trend chart is intentionally postponed because the current input contains only one scorecard year.
 
 The following file should not exist yet:
 
@@ -64,7 +64,7 @@ The lithium_dependency_score is inverted from lithium mine production share. Thi
 
 ## Interpretation Boundaries
 
-This output supports only a scorecard-assisted descriptive judgment.
+This output supports only a descriptive scorecard interpretation.
 
 It is not:
 
@@ -73,13 +73,13 @@ It is not:
 - a policy prescription
 - a geopolitical ranking
 - an automatic risk score
-- a validated strategic exposure model
+- a validated exposure model
 
-The current MVP is latest-year only. It should not be described as a 2020-2025 trend analysis until multi-year data rows are added.
+The current scorecard is latest-year only. It should not be described as a 2020-2025 trend analysis until multi-year data rows are added.
 
 ## Data Caveats
 
-IEA values used in the MVP are rounded textual values and are entered using a fixed rounding convention.
+IEA values used in the scorecard are rounded textual values and are entered using a fixed rounding convention.
 
 Rest of World is a residual aggregate and not a coherent strategic actor.
 
@@ -89,4 +89,5 @@ USGS lithium mine production is country-based. U.S. production is withheld by US
 
 PASS.
 
-The project is ready for a short strategic exposure brief based on the latest-year MVP outputs, with strict caveats.
+The project is ready for a short public brief based on the latest-year scorecard outputs, with strict caveats.
+
