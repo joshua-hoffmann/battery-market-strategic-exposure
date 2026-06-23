@@ -154,17 +154,3 @@ V2.2 is documented separately in:
 
     docs/v2_2_processing_refining_concentration_case_study.md
 
-## Portfolio Relevance
-
-V2.1 demonstrates how a focused public-data pipeline can turn raw production data into a clear business analytics signal.
-
-The project shows:
-
-- curated data preparation
-- country-level production share calculation
-- concentration metric design
-- diagnostic validation before interpretation
-- visual communication of supply concentration
-- explicit claim boundaries
-
-This makes the case study relevant for roles involving finance, business analytics, supply-chain analysis, market research, and Python-based decision support.

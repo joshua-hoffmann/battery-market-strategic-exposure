@@ -126,21 +126,6 @@ The results show where mine production is concentrated by country, but they do n
 
 Concentration is therefore treated as a decision-relevant supply-structure signal, not as a complete measure of mineral supply risk.
 
-## Portfolio Relevance
-
-V2.1 demonstrates how a focused data pipeline can turn raw public-source production data into a decision-ready business signal.
-
-The project shows:
-
-- curated data preparation
-- country-level production share calculation
-- concentration metric design
-- diagnostic validation before interpretation
-- visual communication of supply concentration
-- clear claim boundaries around what the analysis does and does not prove
-
-This makes the project relevant for roles involving finance, business analytics, supply-chain analysis, market research, and Python-based decision support.
-
 ## Version Note
 
 V2.1 is the current primary version of this project.
@@ -211,5 +196,4 @@ Important limitations:
 - manganese uses battery-grade manganese sulphate proxy evidence
 - processing/refining product definitions may not exactly match USGS mine-production categories
 - country-level concentration is not the same as company-level control
-
 

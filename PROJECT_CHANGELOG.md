@@ -170,3 +170,10 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 
 - Purpose:
   Improve GitHub viewer experience by making V2.1 easier to find as a standalone case study, matching the V2.2 documentation pattern.
+
+## 2026-06-23 — Removed Public Portfolio-Framing Language
+
+- Removed public-facing career-positioning language from documentation where present.
+- Purpose:
+  Keep GitHub documentation focused on project logic, methodology, outputs, and claim boundaries rather than career-positioning commentary.
+
