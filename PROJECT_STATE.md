@@ -209,3 +209,32 @@ Next V2.3 phase:
 
 Controlled evidence expansion may continue, but public-facing documentation should remain blocked until enough comparable evidence exists to support bounded public claims.
 
+
+## V2.3 Phase 4 Completed
+
+V2.3 Battery Minerals Downstream Concentration Evidence Tracker now includes controlled source-backed directional evidence rows for cobalt and nickel.
+
+Current Phase 4 evidence status:
+
+- Cobalt: directional-only processing/refining stage evidence for final refined cobalt products including cobalt sulphate.
+- Nickel: directional-only processing/refining stage evidence for nickel final products including nickel sulphate.
+- Both rows are calculation-blocked because no safe public numeric country shares were added.
+
+Current processed status:
+
+- data/processed/v23_downstream_concentration_evidence_tracker.csv includes rows for lithium, cobalt, nickel, natural graphite, and manganese.
+- Manganese remains the only row with a source-reported downstream top-1 value.
+- HHI, top-three, stage-gap, and strongest-stage calculations remain blocked.
+- Overall comparability remains insufficient_evidence for the V2.3 evidence set.
+
+Current public-output status:
+
+- No V2.3 public-facing documentation has been generated.
+- No V2.3 charts have been generated.
+- No V2.3 brief has been generated.
+- README.md has not been updated for V2.3 Phase 4.
+
+Next V2.3 phase:
+
+Decide whether to continue controlled evidence expansion or pause V2.3 until stronger source-backed numeric evidence is available.
+

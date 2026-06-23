@@ -186,3 +186,14 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 - No public-facing V2.3 documentation, charts, briefs, or README updates were created.
 - V2.1 and V2.2 files remain unchanged.
 
+
+## 2026-06-23 — V2.3 Phase 4 Controlled Evidence Expansion
+
+- Added source-backed directional evidence rows for cobalt and nickel.
+- Cobalt row preserves IEA stage-definition evidence for final refined cobalt products including cobalt sulphate.
+- Nickel row preserves IEA stage-definition evidence for nickel final products including nickel sulphate.
+- Both rows remain calculation-blocked because the source does not provide safe public numeric country shares for battery-grade downstream conversion.
+- Existing lithium, natural graphite, and manganese rows remain unchanged.
+- HHI, top-three, stage-gap, and strongest-stage calculations remain blocked.
+- No README, docs, charts, briefs, or public-facing claims were created.
+
