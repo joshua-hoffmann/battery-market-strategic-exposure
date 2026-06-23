@@ -71,7 +71,7 @@ $lines += "## 5. Output Files"
 $lines += ""
 $lines += '```text'
 if (Test-Path "outputs") {
-    $lines += (Get-ChildItem "outputs" -Recurse -File | Select-Object LastWriteTime, Length, FullName | Format-Table -AutoSize | Out-String)
+    $lines += (Get-ChildItem "outputs\briefs","outputs\charts" -Recurse -File -ErrorAction SilentlyContinue | Select-Object LastWriteTime, Length, FullName | Format-Table -AutoSize | Out-String)
 } else {
     $lines += "outputs folder missing"
 }

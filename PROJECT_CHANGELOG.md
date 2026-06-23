@@ -114,49 +114,6 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
   - no policy recommendation
   - no full annual refining tracker
 
-## 2026-06-23 — LinkedIn Publishing Workflow Added
-
-- Added local LinkedIn publishing workflow folder:
-  - outputs/linkedin/
-
-- Added V2.1 post record:
-  - outputs/linkedin/v2_1_mine_production_baseline/V2_1_POST_RECORD.md
-
-- Added V2.2 follow-up planning files:
-  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_POSTING_TODO.md
-  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_CAPTION_DRAFT.md
-
-- Recorded published V2.1 LinkedIn post:
-  - https://www.linkedin.com/feed/update/urn:li:ugcPost:7474976109584101377/
-
-- Preserved GitHub repository link for public case-study reference:
-  - https://github.com/joshua-hoffmann/battery-market-strategic-exposure
-
-- Purpose:
-  Make the V2.1 to V2.2 publishing sequence explicit and easy to resume after 2–4 days.
-
-## 2026-06-23 — V2.2 LinkedIn Follow-Up Prepared
-
-- Added final V2.2 LinkedIn follow-up preparation files:
-  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_CAPTION_FINAL_DRAFT.md
-  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_FIRST_COMMENT.md
-  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_FINAL_POSTING_CHECKLIST.md
-  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_ENGAGEMENT_GUIDE.md
-  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_ASSET_LOCATION_CHECK.md
-
-- Added optional local asset folder:
-  - outputs/linkedin/v2_2_processing_refining_followup/assets/
-
-- Preserved V2.1 to V2.2 publishing bridge:
-  - V2.1 = mine-production concentration baseline
-  - V2.2 = processing/refining concentration follow-up
-
-- Target V2.2 posting window:
-  - 2026-06-25 to 2026-06-27
-
-- Purpose:
-  Make the V2.2 follow-up post ready to execute without reconstructing captions, comments, claim boundaries, or checklist logic.
-
 ## 2026-06-23 — V2.1 Standalone Case Study Added
 
 - Added standalone V2.1 case-study documentation:
@@ -177,10 +134,6 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 - Purpose:
   Keep GitHub documentation focused on project logic, methodology, outputs, and claim boundaries rather than non-project commentary.
 
-
-
-
-
 ## 2026-06-23 — Public Documentation Language Cleanup
 
 - Removed non-project framing language from README and case-study documentation.
@@ -188,3 +141,9 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 - Added local-only notes folder to .gitignore so non-public notes remain excluded from repository tracking.
 - Cleaned public registry and snapshot references to local-only notes.
 
+
+## 2026-06-23 — Removed Local Publication Planning Files From Public Tracking
+
+- Removed local publication planning files from public repository tracking while keeping them available locally.
+- Cleaned public governance references so repository documentation remains focused on project methodology, data, code, outputs, and claim boundaries.
+- Updated the project audit workflow so local-only publication planning folders are not listed in public status snapshots.

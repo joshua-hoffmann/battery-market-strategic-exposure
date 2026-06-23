@@ -141,46 +141,6 @@ Implementation must remain bounded to:
 - no HHI unless full country shares are available
 - no full 2020–2024 annual claim
 
-## LinkedIn Publishing Workflow Status
-
-As of 2026-06-23, a project-local LinkedIn publishing workflow has been added under:
-
-outputs/linkedin/
-
-Current sequence:
-
-1. V2.1 Mine-Production Concentration Baseline — posted
-2. V2.2 Processing & Refining Concentration Snapshot — prepared as follow-up
-
-The V2.1 LinkedIn post establishes the upstream mine-production concentration baseline.
-
-V2.1 post:
-https://www.linkedin.com/feed/update/urn:li:ugcPost:7474976109584101377/
-
-The V2.2 follow-up should be posted after a short delay, using the V2.1 post as context.
-
-## V2.2 LinkedIn Follow-Up Preparation
-
-As of 2026-06-23, V2.2 LinkedIn follow-up preparation has been completed under:
-
-outputs/linkedin/v2_2_processing_refining_followup/
-
-Prepared files include:
-
-- final caption draft
-- first-comment text
-- final posting checklist
-- engagement guide
-- asset location check
-
-V2.2 should be posted in the target window:
-
-2026-06-25 to 2026-06-27
-
-The V2.2 post should explicitly build on the published V2.1 upstream baseline post:
-
-https://www.linkedin.com/feed/update/urn:li:ugcPost:7474976109584101377/
-
 ## V2.1 Standalone Case Study Documentation
 
 As of 2026-06-23, V2.1 has a standalone GitHub case-study document:
@@ -195,5 +155,4 @@ Purpose:
 - preserve the V2.1 claim boundary separately from the README
 
 V2.1 remains the upstream baseline for the V2.2 processing/refining comparison.
-
 
