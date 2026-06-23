@@ -2,7 +2,7 @@
 
 ## Source Strategy
 
-The MVP uses a small manually curated CSV derived from public, reputationally credible sources.
+The initial scorecard uses a small manually curated CSV derived from public, reputationally credible sources.
 
 Candidate source categories:
 
@@ -13,7 +13,7 @@ Candidate source categories:
 
 ## Repository Rule
 
-Do not commit:
+Do not include in the repository:
 
 - large raw reports
 - downloaded PDFs
@@ -91,13 +91,13 @@ Do not treat Rest of World as a coherent strategic actor. It is a residual compa
 
 ## First Approved Source Families
 
-The first MVP source research should focus on:
+The first source research phase should focus on:
 
 - IEA Global EV Outlook or Global EV Data Explorer for EV battery demand and battery-market concentration indicators
 - USGS Lithium and Mineral Commodity Summaries for lithium mine production or lithium supply proxy indicators
 - EU or national policy sources only as excluded policy_context rows if needed
 
-Deferred or excluded for MVP:
+Deferred or excluded for the initial scorecard:
 
 - UN Comtrade
 - automated source fetchers
@@ -105,16 +105,16 @@ Deferred or excluded for MVP:
 - paid or proprietary battery databases
 - large raw files in the repository
 
-## MVP Source Research Decision
+## Initial Source Research Decision
 
-The first MVP data version will use two primary public source families:
+The first scorecard data version will use two primary public source families:
 
 1. International Energy Agency
 2. U.S. Geological Survey
 
-Eurostat, UN Comtrade, automated fetchers, PDF extraction, and large raw data files are deferred or excluded from the MVP.
+Eurostat, UN Comtrade, automated fetchers, PDF extraction, and large raw data files are deferred or excluded from the initial scorecard.
 
-## Approved MVP Indicators
+## Approved Initial Scorecard Indicators
 
 | indicator_name | indicator_category | source_family | unit | include_in_scorecard | first_version_scope | notes |
 |---|---|---|---|---|---|---|
@@ -126,8 +126,8 @@ Eurostat, UN Comtrade, automated fetchers, PDF extraction, and large raw data fi
 
 | indicator_name | indicator_category | source_family | include_in_scorecard | notes |
 |---|---|---|---|---|
-| battery_policy_support_context | policy_context | IEA policy commentary, EU or national policy sources | false | Context only. Must not enter MVP score calculation. |
-| critical_minerals_policy_context | policy_context | EU or national policy sources | false | Context only. Must not enter MVP score calculation. |
+| battery_policy_support_context | policy_context | IEA policy commentary, EU or national policy sources | false | Context only. Must not enter the score calculation. |
+| critical_minerals_policy_context | policy_context | EU or national policy sources | false | Context only. Must not enter the score calculation. |
 
 ## Source Selection Rules
 
@@ -145,11 +145,11 @@ Rest of World should be documented as heterogeneous and not treated as a coheren
 
 ## Deferred Sources
 
-UN Comtrade is excluded from the MVP because it would require HS-code mapping, country aggregation, trade-flow interpretation, and additional data-quality logic.
+UN Comtrade is excluded from the initial scorecard because it would require HS-code mapping, country aggregation, trade-flow interpretation, and additional data-quality logic.
 
 Eurostat is deferred unless a specific EU-only gap appears that cannot be handled through IEA or USGS.
 
-Automated API fetchers and PDF table extraction are excluded from the MVP.
+Automated API fetchers and PDF table extraction are excluded from the initial scorecard.
 
 ## Data Entry Gate
 
@@ -157,7 +157,7 @@ No values should be entered into data/curated/battery_exposure_inputs.csv until 
 
 ## Curated Value Extraction Protocol
 
-The first MVP CSV uses a latest-year-only comparison for 2025.
+The first scorecard CSV uses a latest-year-only comparison for 2025.
 
 The first data-entry version should include exactly:
 
@@ -165,11 +165,11 @@ The first data-entry version should include exactly:
 - 4 project regions
 - 12 curated rows
 
-No 2020-2024 trend rows, 2030 rows, policy_context rows, UN Comtrade rows, Eurostat rows, forecast assumptions, or extra indicators should be added in the first CSV version.
+No 2020-2024 trend rows, 2030 rows, policy_context rows, UN Comtrade rows, Eurostat rows, forecast assumptions, or extra indicators should be added in the first scorecard version.
 
 ## Rounded IEA Value Convention
 
-IEA values used in the first MVP may be reported in rounded textual form.
+IEA values used in the first scorecard version may be reported in rounded textual form.
 
 The project uses the following fixed convention:
 
@@ -262,7 +262,7 @@ Source basis:
 
 The source provides 2025 mine production by country and a rounded world total.
 
-The first MVP maps disclosed 2025 country production into the project regions.
+The first scorecard version maps disclosed 2025 country production into the project regions.
 
 Mapping rule:
 
@@ -282,7 +282,7 @@ For the 2025 USGS lithium table:
 
 USGS withholds U.S. lithium mine production to avoid disclosing company proprietary data.
 
-For the first MVP, the United States lithium_mine_production_share may be entered as 0 only as a disclosed-data proxy for scorecard calculation.
+For the first scorecard version, the United States lithium_mine_production_share may be entered as 0 only as a disclosed-data proxy for scorecard calculation.
 
 This does not mean U.S. lithium production is proven to be zero.
 
@@ -306,13 +306,13 @@ Use the USGS rounded world total for 2025.
 
 If the world total excludes U.S. production, this must be documented in notes.
 
-## First CSV Data Entry Gate
+## First Scorecard Data Entry Gate
 
 Before running the pipeline, the curated CSV must contain only the approved 12 scoring rows.
 
 No policy_context rows should be added yet.
 
-No strategic conclusions should be written before validation, processed output, and charts exist.
+No analytical conclusions should be written before validation, processed output, and charts exist.
 
 <!-- V2.1_CRITICAL_MINERALS_DATA_SOURCES_START -->
 
@@ -409,3 +409,4 @@ Allowed value_status examples:
 Rows with withheld or not_available values should not be included in concentration calculations unless a later documented methodology change explicitly allows it.
 
 <!-- V2.1_CRITICAL_MINERALS_DATA_SOURCES_END -->
+

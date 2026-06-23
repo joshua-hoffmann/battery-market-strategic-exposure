@@ -1,6 +1,6 @@
 ﻿# Limitations
 
-This project is a public-data case study. It uses selected observable proxies and does not measure strategic exposure directly.
+This project uses selected public-data proxies and does not measure strategic exposure directly.
 
 ## Main Limitations
 
@@ -12,8 +12,8 @@ This project is a public-data case study. It uses selected observable proxies an
 - The project does not directly observe battery-grade lithium availability unless explicitly measured.
 - The project does not directly observe corporate sourcing resilience.
 - The project does not directly observe substitution capacity or recycling capacity.
-- Policy context is documented but excluded from MVP score calculation.
-- 2030 outlook data is external context only and is excluded from the 2020-2025 scorecard.
+- Policy context is documented but excluded from the score calculation.
+- 2030 outlook data is external context only and is excluded from the scorecard.
 - The scorecard index is directional and descriptive.
 - The analysis is not an investment recommendation, policy recommendation, forecast, geopolitical ranking, or validated risk model.
 
@@ -31,9 +31,9 @@ Do not claim that this project:
 - determines the objective ranking of regions
 - forecasts battery-market dominance
 
-## Required Boundary Sentence
+## Standard Boundary Statement
 
-This project provides a scorecard-assisted descriptive judgment based on selected public indicators. It is not a forecast model, investment recommendation, policy prescription, geopolitical ranking, automatic risk score, or validated strategic exposure model.
+This project provides a descriptive scorecard based on selected public indicators. It is not a forecast model, investment recommendation, policy prescription, geopolitical ranking, automatic risk score, or validated exposure model.
 
 <!-- V2.1_CRITICAL_MINERALS_LIMITATIONS_START -->
 
@@ -94,6 +94,7 @@ Concentration metrics are comparable because they are based on within-material p
 
 V2.1 is scoped to 2020-2024.
 
-If 2025 is added later, it should be treated as a separate V2.2 latest-estimate layer and clearly labeled, not silently mixed into the V2.1 historical period.
+If later-year data is added, it should be treated as a separate extension layer and clearly labeled, not silently mixed into the V2.1 historical period.
 
 <!-- V2.1_CRITICAL_MINERALS_LIMITATIONS_END -->
+
