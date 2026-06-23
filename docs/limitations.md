@@ -1,6 +1,6 @@
 ﻿# Limitations
 
-This project uses selected public-data proxies and does not measure strategic exposure directly.
+This project uses selected public-data proxies and concentration metrics. Where the term strategic exposure is used, it refers to bounded concentration exposure or concentration patterns only; the project does not measure strategic exposure directly.
 
 ## Main Limitations
 
@@ -10,7 +10,7 @@ This project uses selected public-data proxies and does not measure strategic ex
 - Lithium dependency is only one part of battery value-chain exposure.
 - The project does not directly observe contract-level supply security.
 - The project does not directly observe battery-grade lithium availability unless explicitly measured.
-- The project does not directly observe corporate sourcing resilience.
+- The project does not directly observe corporate sourcing, procurement resilience, supply-chain resilience, or disruption probability.
 - The project does not directly observe substitution capacity or recycling capacity.
 - Policy context is documented but excluded from the score calculation.
 - 2030 outlook data is external context only and is excluded from the scorecard.
@@ -33,7 +33,7 @@ Do not claim that this project:
 
 ## Standard Boundary Statement
 
-This project provides a descriptive scorecard based on selected public indicators. It is not a forecast model, investment recommendation, policy prescription, geopolitical ranking, automatic risk score, or validated exposure model.
+This project provides descriptive concentration metrics and selected public-data indicators. It is not a forecast model, investment recommendation, policy prescription, geopolitical ranking, automatic risk score, or validated exposure model.
 
 <!-- V2.1_CRITICAL_MINERALS_LIMITATIONS_START -->
 
@@ -69,7 +69,7 @@ V2.1 does not produce:
 - validated supply-chain risk model
 - country risk score
 
-The output should be interpreted as a structural concentration signal that may motivate further analysis.
+The output should be interpreted as a descriptive structural concentration metric that may support further bounded analysis.
 
 ### Data limitations
 
@@ -101,5 +101,4 @@ If later-year data is added, it should be treated as a separate extension layer 
 
 ## V2.3 Evidence Boundary
 
-The V2.3 downstream concentration evidence module is not presented as a completed downstream bottleneck result. Current coverage includes limited numeric downstream concentration evidence, while other observations remain directional only. The module should not be interpreted as a risk score, investment signal, geopolitical ranking, forecast, policy recommendation, or full downstream supply-chain model.
-
+The V2.3 downstream concentration evidence module is not presented as a completed public case study or a completed downstream concentration result. Current coverage includes limited numeric downstream concentration evidence, while other observations remain directional only. The module should not be interpreted as bottleneck proof, a risk score, investment signal, geopolitical ranking, forecast, policy recommendation, or full downstream supply-chain model.

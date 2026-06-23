@@ -28,7 +28,7 @@ Which battery minerals show the highest and most persistent observed mine-produc
 
 V2.1 measures country-level mine-production concentration for selected battery minerals.
 
-The core signal is based on:
+The core concentration metrics are based on:
 
 - producer share by country
 - largest producer share
@@ -124,7 +124,7 @@ This project measures observed USGS mine-production concentration only. It is no
 
 The results show where mine production is concentrated by country, but they do not independently measure trade flows, refining capacity, reserves, substitution potential, inventory buffers, company exposure, political stability, pricing power, or downstream battery supply-chain resilience.
 
-Concentration is therefore treated as a decision-relevant supply-structure signal, not as a complete measure of mineral supply risk.
+Concentration is therefore treated as a descriptive supply-structure metric, not as a complete measure of mineral supply risk, disruption probability, market power, or downstream supply-chain resilience.
 
 ## Version Note
 
@@ -136,11 +136,11 @@ Earlier V1 framing is retained only as project history and has been superseded b
 
 ## V2.2 — Processing & Refining Concentration Snapshot
 
-V2.2 extends the V2.1 mine-production concentration analysis into a limited downstream concentration comparison.
+V2.2 extends the V2.1 mine-production concentration baseline into a bounded mining-vs-processing/refining concentration comparison.
 
 ### Business question
 
-Which battery minerals remain most concentrated after mine production, and does processing/refining concentration create a stronger bottleneck than mining concentration?
+Which battery minerals remain most concentrated after mine production, and where is processing/refining top-three concentration higher than mining top-three concentration?
 
 ### Scope
 
@@ -158,7 +158,7 @@ Included minerals:
 
 The V2.2 snapshot shows that, under the allowed 2024 top-three-share comparison, all five minerals have higher processing/refining concentration than mine-production concentration.
 
-| Mineral | Mining top-3 share | Processing/refining top-3 share | Higher bottleneck stage |
+| Mineral | Mining top-3 share | Processing/refining top-3 share | Higher top-three concentration stage |
 |---|---:|---:|---|
 | lithium | 74.17% | 96.00% | processing/refining |
 | cobalt | 88.52% | 89.00% | processing/refining |
@@ -174,7 +174,7 @@ The V2.2 snapshot shows that, under the allowed 2024 top-three-share comparison,
 
 ### Claim boundary
 
-V2.2 is a concentration signal only.
+V2.2 is a bounded concentration comparison only.
 
 It is not:
 
@@ -202,5 +202,4 @@ Important limitations:
 
 ## V2.3 Evidence-Limited Extension
 
-V2.3 has been initialized to track downstream concentration evidence across selected battery minerals, but current public documentation treats it as evidence-limited pending stronger source-backed numeric coverage.
-
+V2.3 has been initialized to track downstream concentration evidence across selected battery minerals, but current public documentation treats it as evidence-limited and not as a completed public case study pending stronger source-backed numeric coverage.

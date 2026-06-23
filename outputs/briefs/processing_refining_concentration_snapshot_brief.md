@@ -2,11 +2,11 @@
 
 ## Business question
 
-Which battery minerals remain most concentrated after mine production, and does processing/refining concentration create a stronger bottleneck than mining concentration?
+Which battery minerals remain most concentrated after mine production, and where is processing/refining top-three concentration higher than mining top-three concentration?
 
 ## Claim boundary
 
-This output is a concentration signal only. It is not a risk score, investment signal, geopolitical ranking, forecast, policy recommendation, or full annual refining tracker.
+This output is a bounded concentration comparison only. It is not a risk score, investment signal, geopolitical ranking, forecast, policy recommendation, bottleneck proof, or full annual refining tracker.
 
 ## Source and method
 
@@ -36,7 +36,7 @@ Resolved columns:
 
 ## V2.2 snapshot table
 
-| year | mineral | mining_top_3_share | processing_refining_top_3_share | processing_minus_mining_top_3_share | higher_bottleneck_stage |
+| year | mineral | mining_top_3_share | processing_refining_top_3_share | processing_minus_mining_top_3_share | higher_top_three_concentration_stage |
 | --- | --- | --- | --- | --- | --- |
 | 2024 | lithium | 74.17 | 96.0 | 21.83 | processing_refining |
 | 2024 | cobalt | 88.52 | 89.0 | 0.48 | processing_refining |
@@ -44,11 +44,11 @@ Resolved columns:
 | 2024 | natural_graphite | 89.62 | 99.0 | 9.38 | processing_refining |
 | 2024 | manganese | 74.0 | 95.0 | 21.0 | processing_refining |
 
-## Summary signal
+## Summary
 
 In this limited public-source snapshot, processing/refining concentration is higher than mine-production top-three concentration for 5 of 5 minerals.
 
-This comparison supports only a narrow bottleneck-stage signal based on top-three concentration. It does not establish risk, investment relevance, policy priority, or future supply vulnerability.
+This comparison supports only a stage-level concentration comparison based on top-three concentration. The percentage-point gap is an arithmetic difference between concentration shares. It does not establish risk, investment relevance, policy priority, bottleneck proof, market power, disruption probability, or future supply outcomes.
 
 ## Coverage limitations
 
@@ -64,4 +64,3 @@ This comparison supports only a narrow bottleneck-stage signal based on top-thre
 
 - `data/processed/critical_minerals_processing_refining_snapshot.csv`
 - `outputs/briefs/processing_refining_concentration_snapshot_brief.md`
-

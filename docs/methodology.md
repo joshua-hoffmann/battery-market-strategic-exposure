@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines the methodology for the Battery Market Strategic Exposure project.
+This document defines the methodology for the Battery Market Strategic Exposure project, where strategic exposure is bounded to observable concentration patterns and selected public-data proxies.
 
 The project uses selected public-data indicators to compare regional exposure to battery value-chain pressure from 2020 to 2025.
 
@@ -24,13 +24,13 @@ The project does not support:
 
 ## Working Definition
 
-Strategic exposure means a region's observable exposure to battery value-chain pressure based on selected public-data proxies for:
+In this methodology, strategic exposure refers to bounded concentration exposure and selected observable public-data proxies. It does not directly measure vulnerability, disruption probability, market power, policy need, geopolitical risk, investment risk, or supply-chain resilience.
 
 - demand intensity
 - lithium-related dependency
 - market concentration
 
-Exposure does not automatically mean weakness. High demand can reflect market strength as well as pressure. Concentration can indicate strategic importance, dependency, or pressure, but it does not prove vulnerability.
+Exposure does not automatically mean weakness. High demand can reflect market strength as well as pressure. Concentration can indicate observable concentration patterns, but it does not prove vulnerability, disruption probability, market power, or supply-chain resilience.
 
 ## Regions
 
@@ -205,7 +205,7 @@ Analytical form:
 
 - descriptive scorecard interpretation
 
-Core signal:
+Core concentration metric:
 
 - observed supply concentration metric
 
@@ -316,5 +316,4 @@ Share-sum checks should flag material-years where included producer shares diffe
 
 ## V2.3 Method Boundary
 
-V2.3 applies the project’s evidence-discipline approach to downstream concentration evidence. Because numeric downstream concentration coverage is currently limited, the module preserves directional-only observations rather than converting them into comparable concentration measurements.
-
+V2.3 applies the project’s evidence-discipline approach to downstream concentration evidence. Because numeric downstream concentration coverage is currently limited, the module remains evidence-limited and is not treated as a completed public case study. Directional-only observations are preserved rather than converted into comparable concentration measurements.

@@ -352,7 +352,7 @@ The project treats USGS world production data as the source basis for country-le
 
 V2.1 is USGS-only for the core concentration calculation.
 
-IEA Critical Minerals data may be reviewed later for V2.2 or V2.3 context, but it is not part of the V2.1 calculation layer.
+IEA Critical Minerals data may be reviewed for bounded processing/refining concentration context where source coverage supports the stated comparison, but it is not part of the V2.1 USGS-only mine-production calculation layer.
 
 ### Canonical material naming
 
@@ -413,5 +413,4 @@ Rows with withheld or not_available values should not be included in concentrati
 
 ## V2.3 Source Coverage Boundary
 
-V2.3 source coverage is incomplete across downstream stages. Source references are included only where they support the stated downstream evidence, and missing numeric coverage is preserved as a limitation rather than estimated or inferred.
-
+V2.3 source coverage is incomplete across downstream stages. Source references are included only where they support the stated downstream evidence, and missing numeric coverage is preserved as a limitation rather than estimated or inferred. V2.3 remains evidence-limited and is not treated as a completed public case study.

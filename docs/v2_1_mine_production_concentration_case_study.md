@@ -1,157 +1,68 @@
-﻿# V2.1 Case Study — Critical Minerals Mine-Production Concentration Tracker
+﻿# V2.1 Mine-Production Concentration Case Study
 
-## Project Context
+## Analytical question
 
-Battery Market Strategic Exposure analyzes supply concentration patterns in selected battery-related critical minerals.
+How concentrated was mine production for selected battery-relevant minerals from 2020 through 2024?
 
-V2.1 establishes the upstream baseline: observed mine-production concentration.
+## Source basis
 
-This baseline matters because a downstream bottleneck comparison only makes sense after the mining-stage concentration picture is clear.
+V2.1 uses USGS-only mine-production data for the 2020–2024 period.
 
-## Business Question
+The case study provides a mine-production concentration baseline using producer share, top-1 share, top-3 share, Herfindahl-Hirschman Index (HHI), and share-coverage validation.
 
-Which battery minerals show the highest and most persistent mine-production concentration, and has concentration improved or worsened over time?
+## Mineral scope
 
-## Scope
+The analysis covers five battery-relevant minerals:
 
-V2.1 covers five battery-related critical minerals:
+- lithium
+- cobalt
+- nickel
+- natural graphite
+- manganese
 
-- Lithium
-- Cobalt
-- Nickel
-- Natural graphite
-- Manganese
+## Method summary
 
-The analysis uses a USGS-only mine-production dataset covering 2020 to 2024.
+For each mineral and year, the tracker calculates producer-level mine-production shares using USGS production data. It then summarizes concentration through:
 
-## What V2.1 Measures
+- top-1 producer share
+- top-3 producer share
+- HHI
+- share-coverage validation
 
-V2.1 measures country-level mine-production concentration.
+These metrics allow concentration to be compared across minerals and years within a consistent USGS-based mine-production framework.
 
-The core signals are:
+## Validated 2024 result
 
-- producer share by country
-- largest producer share
-- top-three producer share
-- Herfindahl-Hirschman Index, or HHI
-- share coverage validation
+The 2024 mine-production concentration ranking by top-three share and HHI is:
 
-The purpose is to convert raw mine-production data into structured concentration metrics.
-
-## Key 2024 Output
-
-| Rank | Material | Top Producer | Top 3 Share (%) | HHI |
-|---:|---|---|---:|---:|
-| 1 | Natural graphite | China | 89.625 | 6380.866 |
-| 2 | Cobalt | Congo (Kinshasa) | 88.517 | 5871.850 |
-| 3 | Nickel | Indonesia | 76.486 | 3771.872 |
-| 4 | Lithium | Australia | 74.167 | 2215.265 |
-| 5 | Manganese | South Africa | 74.000 | 2200.027 |
+| Rank | Mineral | 2024 top-three share | 2024 HHI |
+|---:|---|---:|---:|
+| 1 | Natural graphite | 89.625% | 6380.866 |
+| 2 | Cobalt | 88.517% | 5871.850 |
+| 3 | Nickel | 76.486% | 3771.872 |
+| 4 | Lithium | 74.167% | 2215.265 |
+| 5 | Manganese | 74.000% | 2200.027 |
 
 ## Interpretation
 
-The 2024 ranking shows natural graphite and cobalt with the highest observed mine-production concentration among the selected minerals.
+V2.1 provides a USGS-based mine-production concentration baseline for five battery-relevant minerals from 2020–2024, using producer share, top-1 share, top-3 share, HHI, and coverage validation to compare concentration across minerals and years.
 
-Nickel also shows elevated concentration, while lithium and manganese are lower in the selected group but still have top-three producer shares above 70%.
+The 2024 results show that natural graphite and cobalt had the highest mine-production concentration among the five minerals in scope, based on both top-three share and HHI. Nickel, lithium, and manganese also showed substantial top-three concentration, but at lower HHI levels than natural graphite and cobalt.
 
-The key point is not that these values are risk scores.
+This result supports a bounded comparison of mine-production concentration. It does not, by itself, establish disruption probability, market power, geopolitical risk, investment risk, policy need, or supply-chain resilience.
 
-The key point is that mine production is already concentrated enough to justify a structured upstream baseline before moving into downstream processing and refining comparisons.
+## Limitations
 
-## Methodology
+This case study is limited to mine-production concentration as represented in USGS source data.
 
-The V2.1 pipeline starts from curated USGS-only mine-production inputs.
+Key limitations include:
 
-For each material, year, and producing country, the pipeline calculates producer share:
+- The analysis covers mine production only.
+- The analysis does not include processing, refining, manufacturing, trade flows, ownership, reserves, project pipelines, prices, or demand.
+- Concentration metrics describe production-share distribution; they do not explain the causes or consequences of concentration.
+- HHI and top-three share are descriptive concentration metrics, not forecasts or risk scores.
+- The comparison depends on the consistency and coverage of the underlying USGS data.
 
-    Producer share = Country mine production / Reported world mine production
+## Boundary note
 
-The largest producer share identifies the largest producer in each material-year.
-
-The top-three producer share sums the shares of the three largest producers:
-
-    Top-three share = Share of producer 1 + share of producer 2 + share of producer 3
-
-HHI squares and sums producer shares across the producer base:
-
-    HHI = sum of squared producer shares
-
-A higher HHI indicates more concentrated observed mine production.
-
-The pipeline also includes share coverage validation to check whether calculated country shares align with reported world totals before the outputs are interpreted.
-
-## Pipeline Files
-
-### Source Scripts
-
-    src/calculate_critical_minerals_concentration.py
-    src/create_critical_minerals_charts.py
-
-### Curated Input
-
-    data/curated/critical_minerals_production_inputs.csv
-
-### Processed Outputs
-
-    data/processed/critical_minerals_country_shares.csv
-    data/processed/critical_minerals_concentration_metrics.csv
-    data/processed/critical_minerals_latest_ranking.csv
-
-### Chart Outputs
-
-    outputs/charts/critical_minerals_2024_hhi_ranking.png
-    outputs/charts/critical_minerals_top3_share_trend.png
-    outputs/charts/critical_minerals_2024_top1_top3_comparison.png
-    outputs/charts/critical_minerals_share_coverage_diagnostic.png
-
-## Visual Outputs
-
-The main README visual outputs are:
-
-1. 2024 HHI ranking by material
-2. Top-three producer share trend over time
-3. 2024 comparison of largest-producer share and top-three share
-
-The share coverage diagnostic chart is retained as a method and audit output rather than as a main documentation visual.
-
-## Claim Boundary
-
-This project measures observed USGS mine-production concentration only.
-
-It is not:
-
-- a risk score
-- an investment signal
-- a geopolitical ranking
-- a forecast
-- a full supply-chain risk model
-
-The results show where mine production is concentrated by country, but they do not independently measure:
-
-- trade flows
-- refining capacity
-- reserves
-- substitution potential
-- inventory buffers
-- company exposure
-- political stability
-- pricing power
-- downstream battery supply-chain resilience
-
-Concentration is therefore treated as an observed supply-structure metric, not as a complete measure of mineral supply risk.
-
-## Link to V2.2
-
-V2.1 establishes the upstream mine-production baseline.
-
-V2.2 extends this baseline by comparing mine-production concentration with processing/refining concentration.
-
-The follow-up question is:
-
-    Which battery minerals remain most concentrated after mine production, and does processing/refining concentration create a stronger bottleneck than mining concentration?
-
-V2.2 is documented separately in:
-
-    docs/v2_2_processing_refining_concentration_case_study.md
-
-
+This case study measures mine-production concentration only. It does not measure investment risk, geopolitical risk, disruption probability, policy need, or full supply-chain resilience.

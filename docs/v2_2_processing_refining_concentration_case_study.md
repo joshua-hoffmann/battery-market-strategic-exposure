@@ -1,32 +1,18 @@
-﻿# Battery Minerals Bottleneck Analysis: Mining vs. Processing Concentration
+﻿# V2.2 Processing & Refining Concentration Case Study
 
-## Project Summary
+## Analytical question
 
-This case study extends a battery market strategic exposure project from upstream mine-production concentration into downstream processing and refining concentration.
+How does 2024 processing/refining concentration compare with 2024 mine-production concentration for selected battery-relevant minerals?
 
-The analysis asks whether the stronger concentration bottleneck appears at the mine-production stage or later in the supply chain, where raw minerals are processed or refined into battery-relevant materials.
+## Source basis
 
-V2.1 established a mine-production concentration baseline using USGS-only data for lithium, cobalt, nickel, natural graphite, and manganese. V2.2 adds a focused 2024 processing/refining concentration snapshot and compares downstream top-three country concentration against the V2.1 mining baseline.
+V2.2 compares validated 2024 mining top-three concentration with processing/refining top-three concentration evidence for the same five minerals.
 
-The result is not a risk score or investment recommendation. It is a bounded concentration signal: a structured way to identify where supply-chain dependence appears stronger based on public-source evidence.
+The mining concentration values use the validated V2.1 mine-production concentration baseline. The processing/refining values are used as concentration-comparison evidence within a bounded 2024 snapshot.
 
-## Problem / Question
+## Comparison scope
 
-Battery supply-chain discussions often focus on where minerals are mined. But for strategic exposure, mining is only one stage of the value chain.
-
-The core question for V2.2 was:
-
-**Which battery minerals remain most concentrated after mine production, and does processing/refining concentration create a stronger bottleneck than mining concentration?**
-
-This matters because a mineral can appear diversified at the mine-production stage while still depending heavily on a small number of countries for processing, refining, or battery-grade conversion.
-
-## Method
-
-### 1. V2.1 mine-production concentration baseline
-
-V2.1 created the upstream baseline for the project.
-
-It tracked 2020–2024 mine-production concentration for:
+The comparison covers five battery-relevant minerals:
 
 - lithium
 - cobalt
@@ -34,91 +20,55 @@ It tracked 2020–2024 mine-production concentration for:
 - natural graphite
 - manganese
 
-The V2.1 scope was intentionally narrow. It measured mine-production concentration only, including top concentration metrics and HHI where supported by the source structure. It did not create a risk score, investment signal, geopolitical ranking, forecast, or policy recommendation.
+For each mineral, the case study compares:
 
-This baseline gave V2.2 a clean upstream comparison point.
+- 2024 mining top-three concentration
+- 2024 processing/refining top-three concentration
+- the percentage-point gap between the two measures
 
-### 2. V2.2 downstream processing/refining snapshot
+## Method summary
 
-V2.2 extended the analysis downstream by adding a 2024 processing/refining concentration snapshot.
+For each mineral, V2.2 aligns the validated 2024 mining top-three concentration value with the corresponding processing/refining top-three concentration evidence.
 
-The purpose was not to build a full historical tracker. The purpose was to test whether the strongest 2024 concentration signal appears at the mining stage or at the processing/refining stage.
+The percentage-point gap is calculated as:
 
-The output file supporting the analysis is:
+`processing/refining top-three concentration - mining top-three concentration`
 
-`data/processed/critical_minerals_processing_refining_snapshot.csv`
+A positive gap means processing/refining concentration is higher than mine-production concentration for that mineral in the 2024 comparison. A smaller gap means the two concentration measures are closer together.
 
-The public project brief is:
+This is a bounded concentration comparison. It is not a full supply-chain model.
 
-`outputs/briefs/processing_refining_concentration_snapshot_brief.md`
+## Validated result
 
-### 3. Top-three-share comparison
+| Mineral | 2024 mining top-three concentration | 2024 processing/refining top-three concentration | Percentage-point gap |
+|---|---:|---:|---:|
+| Lithium | 74.17% | 96.00% | +21.83 pp |
+| Cobalt | 88.52% | 89.00% | +0.48 pp |
+| Nickel | 76.49% | 78.00% | +1.51 pp |
+| Natural graphite | 89.62% | 99.00% | +9.38 pp |
+| Manganese | 74.00% | 95.00% | +21.00 pp |
 
-The main comparison metric is:
+## Interpretation
 
-**processing/refining top-three country share minus mine-production top-three country share**
+V2.2 compares validated 2024 mining top-three concentration with processing/refining top-three concentration evidence for the same five minerals, showing where downstream processing/refining concentration is higher than mine-production concentration within a bounded concentration-comparison framework.
 
-This produces a simple stage-comparison signal:
+The largest mining vs. processing/refining concentration gaps in this snapshot are for lithium and manganese. Natural graphite also shows a higher processing/refining concentration than mine-production concentration. Cobalt and nickel show much smaller gaps because their 2024 mining and processing/refining top-three concentration values are closer together.
 
-- positive gap: processing/refining is more concentrated than mining
-- negative gap: mining is more concentrated than processing/refining
-- near-zero gap: concentration is similar across stages
-
-The analysis uses this comparison because it is transparent, interpretable, and appropriate for a bounded public-source snapshot.
-
-### 4. Source and coverage diagnostics
-
-The method includes source and coverage diagnostics to avoid treating the output as more precise than the evidence supports.
-
-The analysis preserves several boundaries:
-
-- processing/refining evidence is limited to 2024
-- refining HHI is not calculated
-- refining top-one share is not calculated
-- manganese uses weaker battery-grade manganese sulphate proxy evidence
-- processing/refining definitions may not map perfectly onto USGS mine-production categories
-- country-level concentration is not the same as company-level control
-
-This keeps the analysis bounded by separating what the data shows from what it does not show.
-
-## Key Finding
-
-Under the allowed 2024 top-three-share comparison, all five minerals show higher processing/refining concentration than mine-production concentration.
-
-| Year | Mineral | Mining top-three share | Processing/refining top-three share | Processing minus mining | Higher bottleneck stage |
-|---:|---|---:|---:|---:|---|
-| 2024 | Lithium | 74.17% | 96.00% | 21.83 pp | Processing/refining |
-| 2024 | Cobalt | 88.52% | 89.00% | 0.48 pp | Processing/refining |
-| 2024 | Nickel | 76.49% | 78.00% | 1.51 pp | Processing/refining |
-| 2024 | Natural graphite | 89.62% | 99.00% | 9.38 pp | Processing/refining |
-| 2024 | Manganese | 74.00% | 95.00% | 21.00 pp | Processing/refining |
-
-The strongest processing-over-mining gaps appear in:
-
-- **lithium:** +21.83 percentage points
-- **manganese:** +21.00 percentage points
-- **natural graphite:** +9.38 percentage points
-
-Cobalt and nickel also show higher downstream concentration, but the gap is much smaller:
-
-- **cobalt:** +0.48 percentage points
-- **nickel:** +1.51 percentage points
-
-The main interpretation is that mine-production concentration alone may understate stage-level concentration for some battery minerals. For this 2024 snapshot, the downstream processing/refining stage is the higher concentration bottleneck for all five minerals in scope.
+The result identifies concentration differences between mining and processing/refining stages. It does not determine why those differences exist, whether they will persist, or whether they translate into disruption probability, market power, investment risk, policy need, or full supply-chain resilience.
 
 ## Limitations
 
-V2.2 is a limited 2024 snapshot, not a full annual tracker.
+This case study is limited to a 2024 concentration snapshot comparing mining and processing/refining top-three concentration.
 
-Refining HHI is not calculated.
+Key limitations include:
 
-Refining top-one share is not calculated.
+- The analysis compares concentration metrics only.
+- The analysis does not model ownership, trade flows, project capacity, utilization rates, inventories, prices, contracts, reserves, demand, or substitution.
+- Processing/refining concentration evidence is used for bounded comparison, not for forecasting or risk scoring.
+- A higher processing/refining concentration value does not automatically imply disruption probability or market power.
+- The comparison does not establish causality between mine-production concentration and processing/refining concentration.
+- The analysis does not rank geopolitical risk or recommend policy action.
 
-Manganese is weaker evidence because it uses battery-grade manganese sulphate proxy evidence.
+## Boundary note
 
-Processing/refining definitions may not exactly match USGS mine-production categories.
-
-Country-level concentration is not company-level control.
-
-The output is a concentration signal only. It is not a risk score, investment signal, geopolitical ranking, forecast, or policy recommendation.
-
+This case study compares mining and processing/refining concentration. It does not prove bottlenecks, forecast disruption, rank geopolitical risk, or measure full supply-chain resilience.

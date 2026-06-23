@@ -1,8 +1,8 @@
-﻿# Strategic Exposure Brief
+﻿# Strategic Exposure Brief: Concentration Patterns
 
 ## Project
 
-Battery Market Strategic Exposure
+Battery Market Strategic Exposure, using strategic exposure to mean bounded concentration exposure and selected observable public-data indicators.
 
 ## Analytical Boundary
 
@@ -72,13 +72,13 @@ The trend chart is intentionally postponed because the current dataset contains 
 
 ## Important Caveats
 
-The scorecard measures selected observable proxies. It does not measure strategic exposure directly.
+The scorecard measures selected observable proxies and concentration patterns. It does not measure strategic exposure directly; where the term is used, it is bounded to concentration exposure and selected public-data indicators.
 
 High exposure does not automatically mean weakness. A high score may reflect industrial scale, market size, or concentration as well as pressure.
 
 Lithium dependency is proxied through lithium mine production share. This does not capture battery-grade lithium access, refining capacity, supply contracts, stockpiles, recycling, substitution, or corporate sourcing arrangements.
 
-Battery manufacturing capacity is not the same as actual battery production, utilization, profitability, or resilience.
+Battery manufacturing capacity is not the same as actual battery production, utilization, profitability, supply-chain resilience, or disruption probability.
 
 IEA values used in the analysis are rounded textual values entered using a fixed rounding convention.
 
@@ -88,7 +88,7 @@ Rest of World is residual and heterogeneous.
 
 ## Interpretation
 
-The latest-year output shows how a compact public-data scorecard can structure regional battery value-chain exposure indicators without claiming to predict outcomes or rank geopolitical winners and losers.
+The latest-year output shows how a compact public-data scorecard can structure selected regional battery value-chain concentration and exposure indicators without claiming to predict outcomes, rank geopolitical winners and losers, measure resilience, or produce investment or policy recommendations.
 
 The main analytical value is the transparent decomposition of the scorecard into demand intensity, lithium dependency, and market concentration, with caveats visible at each step.
 
@@ -103,4 +103,3 @@ Only after consistent multi-year rows exist should the analysis add:
 - stronger comparison of changes over time
 
 Until then, this brief should remain a latest-year interpretation.
-
