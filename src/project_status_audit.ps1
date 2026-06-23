@@ -85,13 +85,11 @@ $docLearningFiles = @()
 if (Test-Path "docs") {
     $docLearningFiles += Get-ChildItem "docs" -Recurse -File
 }
-if (Test-Path "private_learning") {
-    $docLearningFiles += Get-ChildItem "private_learning" -Recurse -File
-}
+
 if ($docLearningFiles.Count -gt 0) {
     $lines += ($docLearningFiles | Select-Object LastWriteTime, Length, FullName | Format-Table -AutoSize | Out-String)
 } else {
-    $lines += "No docs/private_learning files found"
+    $lines += "No documentation files found"
 }
 $lines += '```'
 $lines += ""
@@ -114,3 +112,4 @@ $lines += '```'
 $lines | Set-Content -Path $SnapshotPath -Encoding UTF8
 
 Get-Content $SnapshotPath
+

@@ -48,7 +48,7 @@ The output file supporting the analysis is:
 
 `data/processed/critical_minerals_processing_refining_snapshot.csv`
 
-The employer-facing brief is:
+The public project brief is:
 
 `outputs/briefs/processing_refining_concentration_snapshot_brief.md`
 
@@ -159,3 +159,4 @@ Processing/refining definitions may not exactly match USGS mine-production categ
 Country-level concentration is not company-level control.
 
 The output is a concentration signal only. It is not a risk score, investment signal, geopolitical ranking, forecast, or policy recommendation.
+

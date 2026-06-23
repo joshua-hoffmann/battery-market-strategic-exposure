@@ -12,7 +12,7 @@ The project is designed as a business analytics and decision-support artifact, n
 
 V2.1 is a USGS-only critical minerals mine-production concentration tracker covering lithium, cobalt, nickel, natural graphite, and manganese from 2020 to 2024.
 
-The pipeline uses curated mine-production inputs, calculates producer-level country shares, derives concentration metrics, ranks the latest year, and generates visual outputs for README and portfolio presentation.
+The pipeline uses curated mine-production inputs, calculates producer-level country shares, derives concentration metrics, ranks the latest year, and generates visual outputs for README documentation and public project presentation.
 
 V2.1 focuses on observed production concentration. It does not convert concentration into a risk score.
 
@@ -196,4 +196,5 @@ Important limitations:
 - manganese uses battery-grade manganese sulphate proxy evidence
 - processing/refining product definitions may not exactly match USGS mine-production categories
 - country-level concentration is not the same as company-level control
+
 

@@ -99,7 +99,7 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 
 ## 2026-06-22 — V2.2 Portfolio Case Study Added
 
-- Added employer-facing V2.2 case study:
+- Added standalone V2.2 case study documentation:
   - docs/v2_2_processing_refining_concentration_case_study.md
 - Purpose:
   - explain the V2.2 mining vs processing/refining concentration comparison
@@ -173,7 +173,18 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 
 ## 2026-06-23 — Removed Public Portfolio-Framing Language
 
-- Removed public-facing career-positioning language from documentation where present.
+- Removed public-facing non-project framing language from documentation where present.
 - Purpose:
-  Keep GitHub documentation focused on project logic, methodology, outputs, and claim boundaries rather than career-positioning commentary.
+  Keep GitHub documentation focused on project logic, methodology, outputs, and claim boundaries rather than non-project commentary.
+
+
+
+
+
+## 2026-06-23 — Public Documentation Language Cleanup
+
+- Removed non-project framing language from README and case-study documentation.
+- Replaced non-project framing language with neutral project documentation language.
+- Added local-only notes folder to .gitignore so non-public notes remain excluded from repository tracking.
+- Cleaned public registry and snapshot references to local-only notes.
 

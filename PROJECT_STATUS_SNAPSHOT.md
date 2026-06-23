@@ -1,6 +1,6 @@
 ﻿# PROJECT STATUS SNAPSHOT
 
-Generated: 2026-06-23 02:45:15
+Generated: 2026-06-23 02:55:27
 
 Project Root:
 
@@ -14,19 +14,18 @@ C:\Users\joshu\battery-market-strategic-exposure
 
 Mode   LastWriteTime       Length Name                      
 ----   -------------       ------ ----                      
-d--h-- 23.06.2026 02:41:11        .git                      
+d--h-- 23.06.2026 02:53:53        .git                      
 d----- 17.06.2026 21:19:19        .venv                     
 d----- 17.06.2026 20:56:04        data                      
 d----- 23.06.2026 02:38:46        docs                      
 d----- 23.06.2026 02:15:25        outputs                   
-d----- 17.06.2026 23:00:09        private_learning          
 d----- 22.06.2026 20:30:07        src                       
--a---- 17.06.2026 22:51:00 144    .gitignore                
--a---- 23.06.2026 02:45:15 7116   PROJECT_CHANGELOG.md      
--a---- 23.06.2026 02:38:46 7574   PROJECT_FILE_REGISTRY.md  
--a---- 23.06.2026 02:38:46 5806   PROJECT_STATE.md          
--a---- 23.06.2026 02:38:47 8639   PROJECT_STATUS_SNAPSHOT.md
--a---- 23.06.2026 02:45:15 8010   README.md                 
+-a---- 23.06.2026 02:53:50 184    .gitignore                
+-a---- 23.06.2026 02:55:27 7524   PROJECT_CHANGELOG.md      
+-a---- 23.06.2026 02:55:27 7473   PROJECT_FILE_REGISTRY.md  
+-a---- 23.06.2026 02:55:27 5951   PROJECT_STATE.md          
+-a---- 23.06.2026 02:53:52 7901   PROJECT_STATUS_SNAPSHOT.md
+-a---- 23.06.2026 02:50:05 8031   README.md                 
 -a---- 17.06.2026 20:56:06 22     requirements.txt          
 
 
@@ -36,13 +35,13 @@ d----- 22.06.2026 20:30:07        src
 ## 2. Important Governance Files
 
 ```text
-PROJECT_STATE.md                    EXISTS  2026-06-23 02:38:46  5806 bytes
-PROJECT_FILE_REGISTRY.md            EXISTS  2026-06-23 02:38:46  7574 bytes
-PROJECT_CHANGELOG.md                EXISTS  2026-06-23 02:45:15  7116 bytes
-PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-23 02:38:47  8639 bytes
-README.md                           EXISTS  2026-06-23 02:45:15  8010 bytes
+PROJECT_STATE.md                    EXISTS  2026-06-23 02:55:27  5951 bytes
+PROJECT_FILE_REGISTRY.md            EXISTS  2026-06-23 02:55:27  7473 bytes
+PROJECT_CHANGELOG.md                EXISTS  2026-06-23 02:55:27  7524 bytes
+PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-23 02:53:52  7901 bytes
+README.md                           EXISTS  2026-06-23 02:50:05  8031 bytes
 requirements.txt                    EXISTS  2026-06-17 20:56:06  22 bytes
-.gitignore                          EXISTS  2026-06-17 22:51:00  144 bytes
+.gitignore                          EXISTS  2026-06-23 02:53:50  184 bytes
 ```
 
 ## 3. Source Scripts
@@ -56,7 +55,7 @@ LastWriteTime       Length Name
 22.06.2026 20:32:16  13028 calculate_processing_refining_snapshot.py   
 17.06.2026 21:37:33   4563 create_charts.py                            
 18.06.2026 01:05:39  14782 create_critical_minerals_charts.py          
-22.06.2026 20:28:03   3039 project_status_audit.ps1                    
+23.06.2026 02:55:27   2923 project_status_audit.ps1                    
 17.06.2026 21:15:24    702 run_pipeline.py                             
 
 
@@ -125,14 +124,8 @@ LastWriteTime       Length FullName
 18.06.2026 00:12:19   3597 C:\Users\joshu\battery-market-strategic-exposure\docs\limitations.md                        
 18.06.2026 00:12:19   7559 C:\Users\joshu\battery-market-strategic-exposure\docs\methodology.md                        
 23.06.2026 02:45:15   5044 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_1_mine_production_concentration_...
-22.06.2026 21:57:07   7831 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_2_processing_refining_concentrat...
+23.06.2026 02:50:05   7832 C:\Users\joshu\battery-market-strategic-exposure\docs\v2_2_processing_refining_concentrat...
 17.06.2026 21:38:47   2524 C:\Users\joshu\battery-market-strategic-exposure\docs\validation_note.md                    
-17.06.2026 23:00:12   6372 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
-17.06.2026 23:00:12  40525 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
-17.06.2026 23:00:12   8180 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
-17.06.2026 23:00:12 245783 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
-17.06.2026 22:51:00  24854 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
-17.06.2026 23:00:12   3945 C:\Users\joshu\battery-market-strategic-exposure\private_learning\lernzettel_battery_mark...
 
 
 
@@ -141,8 +134,13 @@ LastWriteTime       Length FullName
 ## 7. Git Status
 
 ```text
+ M .gitignore
  M PROJECT_CHANGELOG.md
+ M PROJECT_FILE_REGISTRY.md
+ M PROJECT_STATE.md
+ M PROJECT_STATUS_SNAPSHOT.md
  M README.md
- M docs/v2_1_mine_production_concentration_case_study.md
+ M docs/v2_2_processing_refining_concentration_case_study.md
+ M src/project_status_audit.ps1
 
 ```

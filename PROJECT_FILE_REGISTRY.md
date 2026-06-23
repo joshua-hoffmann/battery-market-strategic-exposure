@@ -10,7 +10,7 @@ Before creating a new file, check whether an existing file already serves the sa
 
 | File | Type | Purpose | Update Rule |
 |---|---|---|---|
-| README.md | Documentation | Public project overview for GitHub/portfolio use | Update after validated project milestones |
+| README.md | Documentation | Public project overview for GitHub documentation | Update after validated project milestones |
 | requirements.txt | Dependency file | Python package requirements | Update when new packages are required |
 | .gitignore | Git config | Excludes environment/cache/generated files as needed | Update only when new ignored file types are needed |
 | PROJECT_STATE.md | Governance | Current project state and architecture logic | Update after meaningful architecture or workflow changes |
@@ -55,8 +55,6 @@ Before creating a new file, check whether an existing file already serves the sa
 | Folder | Purpose |
 |---|---|
 | docs/ | Public or project documentation |
-| private_learning/ | Private learning notes and non-public learning artifacts |
-
 ## V2.2 File Governance Rule
 
 If V2.2 proceeds, use V2.2-specific filenames.
@@ -87,7 +85,7 @@ Examples:
 | data/processed/critical_minerals_processing_refining_snapshot.csv | Processed V2.2 snapshot output comparing mining top-three share with processing/refining top-three share or definition-limited proxy evidence. |
 | outputs/briefs/processing_refining_concentration_snapshot_brief.md | Markdown brief summarizing the V2.2 concentration-only snapshot, source limitations, and claim boundary. |
 
-| docs/v2_2_processing_refining_concentration_case_study.md | Documentation | Employer-facing V2.2 case study explaining the mining vs processing/refining concentration snapshot | Update if V2.2 interpretation or validated outputs change |
+| docs/v2_2_processing_refining_concentration_case_study.md | Documentation | Standalone V2.2 case study explaining the mining vs processing/refining concentration snapshot | Update if V2.2 interpretation or validated outputs change |
 
 ## LinkedIn Publishing Workflow
 
@@ -114,4 +112,5 @@ Examples:
 
 | File | Type | Purpose | Update Rule |
 |---|---|---|---|
-| docs/v2_1_mine_production_concentration_case_study.md | Documentation | Standalone employer-facing V2.1 case study for the USGS-only mine-production concentration tracker | Update when V2.1 methodology, outputs, or claim boundary changes |
+| docs/v2_1_mine_production_concentration_case_study.md | Documentation | Standalone V2.1 case study for the USGS-only mine-production concentration tracker | Update when V2.1 methodology, outputs, or claim boundary changes |
+

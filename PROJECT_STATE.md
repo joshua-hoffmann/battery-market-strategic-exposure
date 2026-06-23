@@ -12,7 +12,7 @@ C:\Users\joshu\battery-market-strategic-exposure
 
 ## Strategic Project Goal
 
-Build a portfolio-grade battery minerals and supply-chain analytics project that demonstrates:
+Build a reproducible battery minerals and supply-chain analytics project that demonstrates:
 
 - public-source data analysis
 - concentration measurement
@@ -21,7 +21,7 @@ Build a portfolio-grade battery minerals and supply-chain analytics project that
 - reproducible Python outputs
 - clear claim boundaries
 
-The project should support employer-facing proof of capability in:
+The project should demonstrate capability in:
 
 Finance + Commodities + Python + Strategic Supply Chain Analytics.
 
@@ -37,7 +37,6 @@ battery-market-strategic-exposure/
 ├── outputs/
 │   ├── briefs/
 │   └── charts/
-├── private_learning/
 ├── src/
 ├── .gitignore
 ├── README.md
@@ -196,3 +195,5 @@ Purpose:
 - preserve the V2.1 claim boundary separately from the README
 
 V2.1 remains the upstream baseline for the V2.2 processing/refining comparison.
+
+
