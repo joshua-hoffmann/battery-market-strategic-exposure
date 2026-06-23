@@ -156,3 +156,26 @@ Purpose:
 
 V2.1 remains the upstream baseline for the V2.2 processing/refining comparison.
 
+
+## V2.3 Phase 1–2 Completed
+
+V2.3 Battery Minerals Downstream Concentration Evidence Tracker has been initialized as an evidence-bounded concentration tracker.
+
+Current V2.3 files:
+
+- data/curated/v23_battery_grade_downstream_sources.csv
+- src/v23_downstream_concentration_evidence_tracker.py
+- data/processed/v23_downstream_concentration_evidence_tracker.csv
+
+Current status:
+
+- Curated evidence CSV is schema-only.
+- Processed output CSV is schema-only.
+- No unsupported numeric concentration claims are included.
+- V2.1 and V2.2 files remain unchanged.
+- No public-facing V2.3 documentation, charts, briefs, or README updates have been created.
+
+Next V2.3 phase:
+
+Add source-backed curated evidence rows with explicit denominator type, geography basis, comparison-year basis, source confidence, evidence tier, missingness status, and battery-grade flags.
+

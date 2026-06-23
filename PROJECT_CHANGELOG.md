@@ -147,3 +147,21 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 - Removed local publication planning files from public repository tracking while keeping them available locally.
 - Cleaned public governance references so repository documentation remains focused on project methodology, data, code, outputs, and claim boundaries.
 - Updated the project audit workflow so local-only publication planning folders are not listed in public status snapshots.
+
+## 2026-06-23 — V2.3 Phase 1–2 Downstream Concentration Evidence Tracker
+
+- Added schema-only curated evidence input:
+  - data/curated/v23_battery_grade_downstream_sources.csv
+
+- Added V2.3 validation and processing script:
+  - src/v23_downstream_concentration_evidence_tracker.py
+
+- Added processed output schema:
+  - data/processed/v23_downstream_concentration_evidence_tracker.csv
+
+- Confirmed V2.3 processor executes successfully with zero source-backed evidence rows.
+- Confirmed no unsupported numeric concentration claims were added.
+- Confirmed HHI, stage-gap, and strongest-stage calculations remain blocked until source-backed comparable evidence rows are added.
+- Preserved V2.1 and V2.2 behavior.
+- No public documentation, charts, briefs, or README updates were created during this phase.
+

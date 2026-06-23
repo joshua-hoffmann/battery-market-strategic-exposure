@@ -93,3 +93,12 @@ Examples:
 |---|---|---|---|
 | docs/v2_1_mine_production_concentration_case_study.md | Documentation | Standalone V2.1 case study for the USGS-only mine-production concentration tracker | Update when V2.1 methodology, outputs, or claim boundary changes |
 
+
+## V2.3 Downstream Concentration Evidence Tracker
+
+| File | Purpose |
+|---|---|
+| data/curated/v23_battery_grade_downstream_sources.csv | Schema-controlled curated evidence input for V2.3 Battery Minerals Downstream Concentration Evidence Tracker |
+| src/v23_downstream_concentration_evidence_tracker.py | Validates V2.3 curated downstream concentration evidence and generates the processed evidence tracker |
+| data/processed/v23_downstream_concentration_evidence_tracker.csv | Processed V2.3 output comparing publicly observable concentration evidence across mining, processing/refining, and battery-grade conversion where comparable |
+
