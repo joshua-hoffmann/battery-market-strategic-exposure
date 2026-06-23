@@ -141,3 +141,21 @@ Implementation must remain bounded to:
 - explicit source-class diagnostics
 - no HHI unless full country shares are available
 - no full 2020–2024 annual claim
+
+## LinkedIn Publishing Workflow Status
+
+As of 2026-06-23, a project-local LinkedIn publishing workflow has been added under:
+
+outputs/linkedin/
+
+Current sequence:
+
+1. V2.1 Mine-Production Concentration Baseline — posted
+2. V2.2 Processing & Refining Concentration Snapshot — prepared as follow-up
+
+The V2.1 LinkedIn post establishes the upstream mine-production concentration baseline.
+
+V2.1 post:
+https://www.linkedin.com/feed/update/urn:li:ugcPost:7474976109584101377/
+
+The V2.2 follow-up should be posted after a short delay, using the V2.1 post as context.

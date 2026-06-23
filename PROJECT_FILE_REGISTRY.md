@@ -88,3 +88,13 @@ Examples:
 | outputs/briefs/processing_refining_concentration_snapshot_brief.md | Markdown brief summarizing the V2.2 concentration-only snapshot, source limitations, and claim boundary. |
 
 | docs/v2_2_processing_refining_concentration_case_study.md | Documentation | Employer-facing V2.2 case study explaining the mining vs processing/refining concentration snapshot | Update if V2.2 interpretation or validated outputs change |
+
+## LinkedIn Publishing Workflow
+
+| File / Folder | Type | Purpose | Update Rule |
+|---|---|---|---|
+| outputs/linkedin/ | Publishing workflow folder | Tracks LinkedIn carousel publishing assets, post records, and follow-up timing | Update when LinkedIn assets are published or scheduled |
+| outputs/linkedin/README.md | Publishing documentation | Summarizes V2.1 to V2.2 publishing sequence and current post status | Update when new LinkedIn assets are published |
+| outputs/linkedin/v2_1_mine_production_baseline/V2_1_POST_RECORD.md | Publishing record | Records the posted V2.1 LinkedIn baseline asset, GitHub link, and claim boundary | Update only if post link or public record changes |
+| outputs/linkedin/v2_2_processing_refining_followup/V2_2_POSTING_TODO.md | Publishing TODO | Defines timing, checklist, and claim boundary for the V2.2 follow-up post | Update when V2.2 is posted |
+| outputs/linkedin/v2_2_processing_refining_followup/V2_2_CAPTION_DRAFT.md | Caption draft | Stores the prepared V2.2 LinkedIn follow-up caption | Update before publishing if wording changes |

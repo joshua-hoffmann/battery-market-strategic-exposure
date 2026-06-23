@@ -113,3 +113,24 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
   - no forecast
   - no policy recommendation
   - no full annual refining tracker
+
+## 2026-06-23 — LinkedIn Publishing Workflow Added
+
+- Added local LinkedIn publishing workflow folder:
+  - outputs/linkedin/
+
+- Added V2.1 post record:
+  - outputs/linkedin/v2_1_mine_production_baseline/V2_1_POST_RECORD.md
+
+- Added V2.2 follow-up planning files:
+  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_POSTING_TODO.md
+  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_CAPTION_DRAFT.md
+
+- Recorded published V2.1 LinkedIn post:
+  - https://www.linkedin.com/feed/update/urn:li:ugcPost:7474976109584101377/
+
+- Preserved GitHub repository link for public case-study reference:
+  - https://github.com/joshua-hoffmann/battery-market-strategic-exposure
+
+- Purpose:
+  Make the V2.1 to V2.2 publishing sequence explicit and easy to resume after 2–4 days.
