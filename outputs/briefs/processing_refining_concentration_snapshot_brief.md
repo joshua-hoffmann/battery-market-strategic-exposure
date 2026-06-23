@@ -1,8 +1,8 @@
-# Battery Minerals Processing & Refining Concentration Snapshot V2.2
+﻿# Battery Minerals Processing & Refining Concentration Snapshot V2.2
 
 ## Business question
 
-Which battery minerals remain most concentrated after mine production, and does refining/processing concentration create a stronger bottleneck than mining concentration?
+Which battery minerals remain most concentrated after mine production, and does processing/refining concentration create a stronger bottleneck than mining concentration?
 
 ## Claim boundary
 
@@ -48,7 +48,7 @@ Resolved columns:
 
 In this limited public-source snapshot, processing/refining concentration is higher than mine-production top-three concentration for 5 of 5 minerals.
 
-This comparison supports only a narrow bottleneck-stage signal based on top-three concentration. It does not establish risk, investability, policy priority, or future supply vulnerability.
+This comparison supports only a narrow bottleneck-stage signal based on top-three concentration. It does not establish risk, investment relevance, policy priority, or future supply vulnerability.
 
 ## Coverage limitations
 
@@ -58,9 +58,10 @@ This comparison supports only a narrow bottleneck-stage signal based on top-thre
 - Manganese uses weaker battery-grade manganese sulphate evidence and should be treated as a definition-limited proxy.
 - Processing/refining product definitions may not match USGS mine-production categories exactly.
 - Country-level concentration should not be interpreted as company-level control.
-- Manual source curation creates reproducibility limits relative to the V2.1 USGS-only mine-production pipeline.
+- Manual source curation creates reproducibility limits compared with the V2.1 USGS-only mine-production pipeline.
 
 ## Generated outputs
 
 - `data/processed/critical_minerals_processing_refining_snapshot.csv`
 - `outputs/briefs/processing_refining_concentration_snapshot_brief.md`
+
