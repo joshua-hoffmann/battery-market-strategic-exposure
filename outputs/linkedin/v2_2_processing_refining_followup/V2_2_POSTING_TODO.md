@@ -64,3 +64,22 @@ It is not:
 - a forecast
 - a policy recommendation
 - a full 2020–2024 annual refining tracker
+
+## Preparation Update — 2026-06-23
+
+Additional preparation files created:
+
+- V2_2_CAPTION_FINAL_DRAFT.md
+- V2_2_FIRST_COMMENT.md
+- V2_2_FINAL_POSTING_CHECKLIST.md
+- V2_2_ENGAGEMENT_GUIDE.md
+- V2_2_ASSET_LOCATION_CHECK.md
+
+Current status:
+
+- V2.1 has been posted.
+- V2.2 caption is prepared.
+- V2.2 first comment is prepared.
+- V2.2 posting checklist is prepared.
+- V2.2 engagement guide is prepared.
+- V2.2 asset location check has been generated.

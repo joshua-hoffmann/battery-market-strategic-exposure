@@ -98,3 +98,14 @@ Examples:
 | outputs/linkedin/v2_1_mine_production_baseline/V2_1_POST_RECORD.md | Publishing record | Records the posted V2.1 LinkedIn baseline asset, GitHub link, and claim boundary | Update only if post link or public record changes |
 | outputs/linkedin/v2_2_processing_refining_followup/V2_2_POSTING_TODO.md | Publishing TODO | Defines timing, checklist, and claim boundary for the V2.2 follow-up post | Update when V2.2 is posted |
 | outputs/linkedin/v2_2_processing_refining_followup/V2_2_CAPTION_DRAFT.md | Caption draft | Stores the prepared V2.2 LinkedIn follow-up caption | Update before publishing if wording changes |
+
+## V2.2 LinkedIn Follow-Up Preparation Files
+
+| File / Folder | Type | Purpose | Update Rule |
+|---|---|---|---|
+| outputs/linkedin/v2_2_processing_refining_followup/V2_2_CAPTION_FINAL_DRAFT.md | Publishing draft | Final prepared V2.2 LinkedIn caption | Update only if final wording changes before posting |
+| outputs/linkedin/v2_2_processing_refining_followup/V2_2_FIRST_COMMENT.md | Publishing support | Stores the GitHub first-comment text for V2.2 | Update if repository URL changes |
+| outputs/linkedin/v2_2_processing_refining_followup/V2_2_FINAL_POSTING_CHECKLIST.md | Publishing checklist | Final pre-post checklist for V2.2 | Use before publishing V2.2 |
+| outputs/linkedin/v2_2_processing_refining_followup/V2_2_ENGAGEMENT_GUIDE.md | Publishing support | Defines safe response framing after V2.2 is posted | Update if claim boundary changes |
+| outputs/linkedin/v2_2_processing_refining_followup/V2_2_ASSET_LOCATION_CHECK.md | Asset check | Documents whether final V2.2 PNG assets were found locally | Regenerate before publishing if assets move |
+| outputs/linkedin/v2_2_processing_refining_followup/assets/ | Publishing asset folder | Optional local storage for final V2.2 carousel PNGs | Keep final posted assets here if storing images in repo is desired |

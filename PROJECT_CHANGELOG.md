@@ -134,3 +134,25 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 
 - Purpose:
   Make the V2.1 to V2.2 publishing sequence explicit and easy to resume after 2–4 days.
+
+## 2026-06-23 — V2.2 LinkedIn Follow-Up Prepared
+
+- Added final V2.2 LinkedIn follow-up preparation files:
+  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_CAPTION_FINAL_DRAFT.md
+  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_FIRST_COMMENT.md
+  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_FINAL_POSTING_CHECKLIST.md
+  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_ENGAGEMENT_GUIDE.md
+  - outputs/linkedin/v2_2_processing_refining_followup/V2_2_ASSET_LOCATION_CHECK.md
+
+- Added optional local asset folder:
+  - outputs/linkedin/v2_2_processing_refining_followup/assets/
+
+- Preserved V2.1 to V2.2 publishing bridge:
+  - V2.1 = mine-production concentration baseline
+  - V2.2 = processing/refining concentration follow-up
+
+- Target V2.2 posting window:
+  - 2026-06-25 to 2026-06-27
+
+- Purpose:
+  Make the V2.2 follow-up post ready to execute without reconstructing captions, comments, claim boundaries, or checklist logic.

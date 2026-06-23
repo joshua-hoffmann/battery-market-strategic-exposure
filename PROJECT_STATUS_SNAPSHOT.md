@@ -1,6 +1,6 @@
 ﻿# PROJECT STATUS SNAPSHOT
 
-Generated: 2026-06-23 02:15:29
+Generated: 2026-06-23 02:28:33
 
 Project Root:
 
@@ -14,7 +14,7 @@ C:\Users\joshu\battery-market-strategic-exposure
 
 Mode   LastWriteTime       Length Name                      
 ----   -------------       ------ ----                      
-d--h-- 23.06.2026 02:15:27        .git                      
+d--h-- 23.06.2026 02:18:44        .git                      
 d----- 17.06.2026 21:19:19        .venv                     
 d----- 17.06.2026 20:56:04        data                      
 d----- 22.06.2026 21:57:07        docs                      
@@ -22,10 +22,10 @@ d----- 23.06.2026 02:15:25        outputs
 d----- 17.06.2026 23:00:09        private_learning          
 d----- 22.06.2026 20:30:07        src                       
 -a---- 17.06.2026 22:51:00 144    .gitignore                
--a---- 23.06.2026 02:15:26 5383   PROJECT_CHANGELOG.md      
--a---- 23.06.2026 02:15:26 5966   PROJECT_FILE_REGISTRY.md  
--a---- 23.06.2026 02:15:26 4750   PROJECT_STATE.md          
--a---- 22.06.2026 21:57:08 6672   PROJECT_STATUS_SNAPSHOT.md
+-a---- 23.06.2026 02:28:32 6357   PROJECT_CHANGELOG.md      
+-a---- 23.06.2026 02:28:32 7238   PROJECT_FILE_REGISTRY.md  
+-a---- 23.06.2026 02:28:32 5292   PROJECT_STATE.md          
+-a---- 23.06.2026 02:15:29 7137   PROJECT_STATUS_SNAPSHOT.md
 -a---- 22.06.2026 20:35:59 8528   README.md                 
 -a---- 17.06.2026 20:56:06 22     requirements.txt          
 
@@ -36,10 +36,10 @@ d----- 22.06.2026 20:30:07        src
 ## 2. Important Governance Files
 
 ```text
-PROJECT_STATE.md                    EXISTS  2026-06-23 02:15:26  4750 bytes
-PROJECT_FILE_REGISTRY.md            EXISTS  2026-06-23 02:15:26  5966 bytes
-PROJECT_CHANGELOG.md                EXISTS  2026-06-23 02:15:26  5383 bytes
-PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-22 21:57:08  6672 bytes
+PROJECT_STATE.md                    EXISTS  2026-06-23 02:28:32  5292 bytes
+PROJECT_FILE_REGISTRY.md            EXISTS  2026-06-23 02:28:32  7238 bytes
+PROJECT_CHANGELOG.md                EXISTS  2026-06-23 02:28:32  6357 bytes
+PROJECT_STATUS_SNAPSHOT.md          EXISTS  2026-06-23 02:15:29  7137 bytes
 README.md                           EXISTS  2026-06-22 20:35:59  8528 bytes
 requirements.txt                    EXISTS  2026-06-17 20:56:06  22 bytes
 .gitignore                          EXISTS  2026-06-17 22:51:00  144 bytes
@@ -97,8 +97,19 @@ LastWriteTime       Length FullName
 17.06.2026 21:48:04  40075 C:\Users\joshu\battery-market-strategic-exposure\outputs\charts\exposure_score_by_region.png
 23.06.2026 02:15:26   1067 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\README.md                 
 23.06.2026 02:15:26   2278 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_1_mine_production_ba...
+23.06.2026 02:28:31    546 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
 23.06.2026 02:15:26   1190 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
-23.06.2026 02:15:26   1626 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:28:29   1222 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:28:29   1048 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:28:29   1921 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:28:29    223 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:28:32   2078 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:00:26  72025 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:00:26  98189 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:00:26  94478 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:00:26  74443 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:00:26  90386 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
+23.06.2026 02:00:26 118576 C:\Users\joshu\battery-market-strategic-exposure\outputs\linkedin\v2_2_processing_refinin...
 
 
 
@@ -132,6 +143,12 @@ LastWriteTime       Length FullName
  M PROJECT_CHANGELOG.md
  M PROJECT_FILE_REGISTRY.md
  M PROJECT_STATE.md
-?? outputs/linkedin/
+ M outputs/linkedin/v2_2_processing_refining_followup/V2_2_POSTING_TODO.md
+?? outputs/linkedin/v2_2_processing_refining_followup/V2_2_ASSET_LOCATION_CHECK.md
+?? outputs/linkedin/v2_2_processing_refining_followup/V2_2_CAPTION_FINAL_DRAFT.md
+?? outputs/linkedin/v2_2_processing_refining_followup/V2_2_ENGAGEMENT_GUIDE.md
+?? outputs/linkedin/v2_2_processing_refining_followup/V2_2_FINAL_POSTING_CHECKLIST.md
+?? outputs/linkedin/v2_2_processing_refining_followup/V2_2_FIRST_COMMENT.md
+?? outputs/linkedin/v2_2_processing_refining_followup/assets/
 
 ```

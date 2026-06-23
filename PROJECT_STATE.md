@@ -159,3 +159,25 @@ V2.1 post:
 https://www.linkedin.com/feed/update/urn:li:ugcPost:7474976109584101377/
 
 The V2.2 follow-up should be posted after a short delay, using the V2.1 post as context.
+
+## V2.2 LinkedIn Follow-Up Preparation
+
+As of 2026-06-23, V2.2 LinkedIn follow-up preparation has been completed under:
+
+outputs/linkedin/v2_2_processing_refining_followup/
+
+Prepared files include:
+
+- final caption draft
+- first-comment text
+- final posting checklist
+- engagement guide
+- asset location check
+
+V2.2 should be posted in the target window:
+
+2026-06-25 to 2026-06-27
+
+The V2.2 post should explicitly build on the published V2.1 upstream baseline post:
+
+https://www.linkedin.com/feed/update/urn:li:ugcPost:7474976109584101377/
