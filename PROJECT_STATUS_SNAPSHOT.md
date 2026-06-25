@@ -131,3 +131,43 @@ LastWriteTime       Length FullName
  M docs/methodology.md
 
 ```
+
+---
+
+# Workspace Migration Status Update
+
+Generated: 2026-06-25 22:24:34
+
+## Current canonical project root
+
+C:\Users\joshu\AI_WORKSPACE\projects\battery-market-strategic-exposure
+
+## Previous project root
+
+C:\Users\joshu\battery-market-strategic-exposure
+
+## Migration status
+
+- Workspace migration completed.
+- Old root no longer exists.
+- New root exists under AI_WORKSPACE projects.
+- Git repo validated clean after move.
+- Branch: v3-analytical-redesign-feasibility.
+- Remote: https://github.com/joshua-hoffmann/battery-market-strategic-exposure.git.
+- private_learning retained as private/internal material.
+- Public polish remains blocked.
+- README/docs/public artifacts require Project Value Gate and Public Surface Review before publishing.
+
+## Governance constraints carried forward
+
+- Do not delete private_learning automatically.
+- Do not run old private historical scripts without path review.
+- Do not treat this migration as public-readiness approval.
+- Do not update README for public positioning without Project Value Gate.
+- Do not touch gpt_knowledge_global_rules from this project workflow.
+
+## Latest audit closure
+
+C:\Users\joshu\workspace_migration_audit_20260625_153155\phase6j_battery_project_move_closure_20260625_222146
+
+
