@@ -222,3 +222,10 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 - V2.16 recorded registry/changelog alignment check before visual polish, public-surface work, or downstream expansion.
 
 Boundary: no README polish, docs polish, public packaging, portfolio framing, investment signal, policy recommendation, geopolitical ranking, forecast, bottleneck proof, vulnerability ranking, or validated risk model was created in this alignment block.
+
+## V2.17 to V2.41 Public Surface and Visual Upgrade Governance
+- V2.17 to V2.23: public-surface preflight, scan, inspection, closeout, and post-review state recorded without modifying README, docs, or public briefs.
+- V2.24 to V2.32: midstream visual upgrade planned, specified, drafted, QA-checked, refined, QA-checked again, and gated for possible future public insertion.
+- V2.33 to V2.40: upstream visual review, classification, source-candidate selection, specification, draft, QA, refined visual, and public-insertion gate completed.
+- V2.41: visual-upgrade block closed with both refined SVGs kept internal pending separate public-surface patch decision.
+- Boundary retained: no investment signal, policy recommendation, geopolitical ranking, forecast, bottleneck proof, disruption probability, vulnerability ranking, full battery value-chain model, complete downstream layer, complete supply-chain risk model, or validated risk model.

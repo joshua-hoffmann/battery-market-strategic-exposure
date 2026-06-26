@@ -124,3 +124,55 @@ Examples:
 - outputs/briefs/v216_registry_changelog_alignment_check_note.md - registry/changelog alignment check note.
 
 Boundary: these files are internal project-state and traceability records. They do not create public-facing claims, investment signals, policy recommendations, geopolitical rankings, forecasts, bottleneck proof, vulnerability rankings, or validated risk models.
+
+## V2.17 to V2.41 Public Surface and Visual Upgrade Governance
+- data/curated/v217_public_surface_preflight_gate.csv
+- outputs/briefs/v217_public_surface_preflight_gate_note.md
+- data/curated/v218_public_surface_review_scan.csv
+- outputs/briefs/v218_public_surface_review_scan_note.md
+- data/curated/v219_public_surface_inspection_decision.csv
+- outputs/briefs/v219_public_surface_inspection_decision_note.md
+- data/curated/v220_public_surface_hit_contexts_register.csv
+- outputs/briefs/v220_public_surface_hit_contexts.md
+- data/curated/v221_public_surface_hit_classification.csv
+- outputs/briefs/v221_public_surface_hit_classification_note.md
+- data/curated/v222_public_surface_review_closeout.csv
+- outputs/briefs/v222_public_surface_review_closeout_note.md
+- data/curated/v223_post_public_surface_review_state.csv
+- outputs/briefs/v223_post_public_surface_review_state_note.md
+- data/curated/v224_visual_upgrade_plan.csv
+- outputs/briefs/v224_visual_upgrade_plan_note.md
+- data/curated/v225_visual_asset_inventory.csv
+- outputs/briefs/v225_visual_asset_inventory_note.md
+- data/curated/v226_visual_asset_classification.csv
+- outputs/briefs/v226_visual_asset_classification_note.md
+- data/curated/v227_midstream_visual_spec.csv
+- outputs/briefs/v227_midstream_visual_spec_note.md
+- outputs/figures/v228_midstream_mining_vs_processing_refining_draft.svg
+- outputs/briefs/v228_midstream_visual_draft_note.md
+- data/curated/v229_midstream_visual_qa.csv
+- outputs/briefs/v229_midstream_visual_qa_note.md
+- outputs/figures/v230_midstream_mining_vs_processing_refining_refined.svg
+- outputs/briefs/v230_midstream_visual_refined_note.md
+- data/curated/v231_refined_midstream_visual_qa.csv
+- outputs/briefs/v231_refined_midstream_visual_qa_note.md
+- data/curated/v232_midstream_visual_public_insertion_gate.csv
+- outputs/briefs/v232_midstream_visual_public_insertion_gate_note.md
+- data/curated/v233_upstream_visual_review_inventory.csv
+- outputs/briefs/v233_upstream_visual_review_inventory_note.md
+- data/curated/v234_upstream_visual_asset_classification.csv
+- outputs/briefs/v234_upstream_visual_asset_classification_note.md
+- data/curated/v235_upstream_visual_data_candidate_selection.csv
+- outputs/briefs/v235_upstream_visual_data_candidate_selection_note.md
+- data/curated/v236_upstream_visual_spec.csv
+- outputs/briefs/v236_upstream_visual_spec_note.md
+- outputs/figures/v237_upstream_mine_production_concentration_draft.svg
+- outputs/briefs/v237_upstream_visual_draft_note.md
+- data/curated/v238_upstream_visual_qa.csv
+- outputs/briefs/v238_upstream_visual_qa_note.md
+- outputs/figures/v239_upstream_mine_production_concentration_refined.svg
+- outputs/briefs/v239_upstream_visual_refined_note.md
+- data/curated/v240_upstream_visual_public_insertion_gate.csv
+- outputs/briefs/v240_upstream_visual_public_insertion_gate_note.md
+- data/curated/v241_visual_upgrade_block_closeout.csv
+- outputs/briefs/v241_visual_upgrade_block_closeout_note.md
