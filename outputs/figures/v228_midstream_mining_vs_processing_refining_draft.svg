@@ -1,0 +1,27 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='980' height='520' viewBox='0 0 980 520'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='30' y='35' font-family='Arial' font-size='22' font-weight='bold'>Midstream concentration draft: mining vs processing/refining Top-3 share</text>
+<text x='30' y='58' font-family='Arial' font-size='13'>Internal draft from V2.14. Descriptive concentration and traceability only; downstream not built.</text>
+<text x='30' y='88' font-family='Arial' font-size='14' font-weight='bold'>cobalt</text>
+<rect x='210' y='70' width='549' height='18' fill='#9ecae1'/><text x='767' y='84' font-family='Arial' font-size='12'>Mining 88.52%</text>
+<rect x='210' y='94' width='552' height='18' fill='#3182bd'/><text x='770' y='108' font-family='Arial' font-size='12'>Processing/refining 89%</text>
+<text x='30' y='116' font-family='Arial' font-size='11'>low_priority_public_snapshot_precision_gap</text>
+<text x='30' y='158' font-family='Arial' font-size='14' font-weight='bold'>lithium</text>
+<rect x='210' y='140' width='460' height='18' fill='#9ecae1'/><text x='678' y='154' font-family='Arial' font-size='12'>Mining 74.17%</text>
+<rect x='210' y='164' width='595' height='18' fill='#3182bd'/><text x='813' y='178' font-family='Arial' font-size='12'>Processing/refining 96%</text>
+<text x='30' y='186' font-family='Arial' font-size='11'>strongest_midstream_case_source_traceable_processing_refining_value</text>
+<text x='30' y='228' font-family='Arial' font-size='14' font-weight='bold'>manganese</text>
+<rect x='210' y='210' width='459' height='18' fill='#9ecae1'/><text x='677' y='224' font-family='Arial' font-size='12'>Mining 74%</text>
+<rect x='210' y='234' width='589' height='18' fill='#3182bd'/><text x='807' y='248' font-family='Arial' font-size='12'>Processing/refining 95%</text>
+<text x='30' y='256' font-family='Arial' font-size='11'>usable_but_proxy_limited_definition_gap</text>
+<text x='30' y='298' font-family='Arial' font-size='14' font-weight='bold'>natural_graphite</text>
+<rect x='210' y='280' width='556' height='18' fill='#9ecae1'/><text x='774' y='294' font-family='Arial' font-size='12'>Mining 89.62%</text>
+<rect x='210' y='304' width='614' height='18' fill='#3182bd'/><text x='832' y='318' font-family='Arial' font-size='12'>Processing/refining 99%</text>
+<text x='30' y='326' font-family='Arial' font-size='11'>product_definition_limited_public_snapshot</text>
+<text x='30' y='368' font-family='Arial' font-size='14' font-weight='bold'>nickel</text>
+<rect x='210' y='350' width='474' height='18' fill='#9ecae1'/><text x='692' y='364' font-family='Arial' font-size='12'>Mining 76.49%</text>
+<rect x='210' y='374' width='484' height='18' fill='#3182bd'/><text x='702' y='388' font-family='Arial' font-size='12'>Processing/refining 78%</text>
+<text x='30' y='396' font-family='Arial' font-size='11'>low_priority_public_snapshot_precision_gap</text>
+<text x='30' y='465' font-family='Arial' font-size='12'>Boundary: not a bottleneck proof, vulnerability ranking, investment signal, policy recommendation, forecast, full value-chain model, or validated risk model.</text>
+<text x='30' y='488' font-family='Arial' font-size='12'>Source-strength differs by mineral: lithium source-traceable; manganese proxy-limited; natural graphite product-definition-limited/public snapshot; cobalt/nickel public-snapshot precision gaps.</text>
+</svg>
