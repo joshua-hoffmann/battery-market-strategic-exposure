@@ -1,0 +1,29 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1120' height='610' viewBox='0 0 1120 610'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='30' y='35' font-family='Arial' font-size='23' font-weight='bold'>Mining vs processing/refining concentration by mineral</text>
+<text x='30' y='60' font-family='Arial' font-size='13'>Internal refined draft from V2.14. Top-3 share comparison; descriptive concentration and traceability only.</text>
+<text x='240' y='78' font-family='Arial' font-size='12'>Light bar = mining Top-3 share; dark bar = processing/refining Top-3 share</text>
+<text x='30' y='100' font-family='Arial' font-size='15' font-weight='bold'>cobalt</text>
+<rect x='240' y='82' width='575' height='17' fill='#b6d7e8'/><text x='823' y='95' font-family='Arial' font-size='12'>88.52%</text>
+<rect x='240' y='105' width='578' height='17' fill='#2b6c9f'/><text x='826' y='118' font-family='Arial' font-size='12'>89%</text>
+<text x='30' y='131' font-family='Arial' font-size='11'>gap: 0 pp | low priority public snapshot precision gap</text>
+<text x='30' y='176' font-family='Arial' font-size='15' font-weight='bold'>lithium</text>
+<rect x='240' y='158' width='482' height='17' fill='#b6d7e8'/><text x='730' y='171' font-family='Arial' font-size='12'>74.17%</text>
+<rect x='240' y='181' width='624' height='17' fill='#2b6c9f'/><text x='872' y='194' font-family='Arial' font-size='12'>96%</text>
+<text x='30' y='207' font-family='Arial' font-size='11'>gap: 0 pp | strongest midstream case source traceable processing refining value</text>
+<text x='30' y='252' font-family='Arial' font-size='15' font-weight='bold'>manganese</text>
+<rect x='240' y='234' width='481' height='17' fill='#b6d7e8'/><text x='729' y='247' font-family='Arial' font-size='12'>74%</text>
+<rect x='240' y='257' width='618' height='17' fill='#2b6c9f'/><text x='866' y='270' font-family='Arial' font-size='12'>95%</text>
+<text x='30' y='283' font-family='Arial' font-size='11'>gap: 0 pp | usable but proxy limited definition gap</text>
+<text x='30' y='328' font-family='Arial' font-size='15' font-weight='bold'>natural graphite</text>
+<rect x='240' y='310' width='583' height='17' fill='#b6d7e8'/><text x='831' y='323' font-family='Arial' font-size='12'>89.62%</text>
+<rect x='240' y='333' width='644' height='17' fill='#2b6c9f'/><text x='892' y='346' font-family='Arial' font-size='12'>99%</text>
+<text x='30' y='359' font-family='Arial' font-size='11'>gap: 0 pp | product definition limited public snapshot</text>
+<text x='30' y='404' font-family='Arial' font-size='15' font-weight='bold'>nickel</text>
+<rect x='240' y='386' width='497' height='17' fill='#b6d7e8'/><text x='745' y='399' font-family='Arial' font-size='12'>76.49%</text>
+<rect x='240' y='409' width='507' height='17' fill='#2b6c9f'/><text x='755' y='422' font-family='Arial' font-size='12'>78%</text>
+<text x='30' y='435' font-family='Arial' font-size='11'>gap: 0 pp | low priority public snapshot precision gap</text>
+<text x='30' y='510' font-family='Arial' font-size='12' font-weight='bold'>Boundary</text>
+<text x='30' y='532' font-family='Arial' font-size='12'>Internal visual only. Downstream is not built. Do not use as bottleneck proof, vulnerability ranking, investment signal, policy recommendation, forecast, or validated risk model.</text>
+<text x='30' y='555' font-family='Arial' font-size='12'>Source strength differs: lithium source-traceable; manganese proxy-limited; natural graphite product-definition-limited/public snapshot; cobalt/nickel public-snapshot precision gaps.</text>
+</svg>
