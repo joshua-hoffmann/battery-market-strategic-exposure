@@ -1,0 +1,2 @@
+﻿version,hit_count,classification,decision,next_action
+V2.21,32,patch_candidates_exist,patch_candidates_exist,manual_patch_review_required_before_editing
