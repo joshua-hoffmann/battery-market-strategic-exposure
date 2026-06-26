@@ -89,7 +89,8 @@ USGS lithium mine production is country-based. U.S. production is withheld by US
 
 PASS.
 
-The project is ready for a short public brief based on the latest-year scorecard outputs, with strict caveats.
+The current output supports a bounded latest-year descriptive interpretation only when the stated caveats are retained.
+
 
 
 
