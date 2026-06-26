@@ -1,0 +1,18 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1100' height='570' viewBox='0 0 1100 570'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='30' y='35' font-family='Arial' font-size='23' font-weight='bold'>Upstream mine-production concentration</text>
+<text x='30' y='60' font-family='Arial' font-size='13'>Internal refined draft from data\curated\v210_cross_mineral_traceability_summary.csv. Bounded descriptive concentration only.</text>
+<text x='270' y='78' font-family='Arial' font-size='12'>Bar length shows selected Top/share percentage from the mapped V2.1 source candidate.</text>
+<text x='30' y='96' font-family='Arial' font-size='12'>manganese</text>
+<rect x='270' y='82' width='481' height='19' fill='#5b9ec9'/><text x='759' y='96' font-family='Arial' font-size='12'>74%</text>
+<text x='30' y='130' font-family='Arial' font-size='12'>cobalt</text>
+<rect x='270' y='116' width='575' height='19' fill='#5b9ec9'/><text x='853' y='130' font-family='Arial' font-size='12'>88.52%</text>
+<text x='30' y='164' font-family='Arial' font-size='12'>natural graphite</text>
+<rect x='270' y='150' width='583' height='19' fill='#5b9ec9'/><text x='861' y='164' font-family='Arial' font-size='12'>89.62%</text>
+<text x='30' y='198' font-family='Arial' font-size='12'>nickel</text>
+<rect x='270' y='184' width='497' height='19' fill='#5b9ec9'/><text x='775' y='198' font-family='Arial' font-size='12'>76.49%</text>
+<text x='30' y='232' font-family='Arial' font-size='12'>lithium</text>
+<rect x='270' y='218' width='482' height='19' fill='#5b9ec9'/><text x='760' y='232' font-family='Arial' font-size='12'>74.17%</text>
+<text x='30' y='500' font-family='Arial' font-size='12' font-weight='bold'>Boundary</text>
+<text x='30' y='522' font-family='Arial' font-size='12'>Internal visual only. Bounded descriptive mine-production concentration; not an investment signal, policy recommendation, geopolitical ranking, forecast, bottleneck proof, vulnerability ranking, full battery value-chain model, complete downstream layer, or validated risk model.</text>
+</svg>
