@@ -1,0 +1,7 @@
+﻿"check","result","next_action"
+"internal_refined_draft_label","pass","keep_internal_until_insertion_gate"
+"descriptive_only_label","pass","retain_subtitle_boundary"
+"downstream_not_built_boundary","pass","avoid_complete_value_chain_claim"
+"blocked_claims_caption","pass","retain_blocked_claims_caption"
+"source_strength_caption","pass","retain_source_strength_caption"
+"five_mineral_labels","pass","labels_readable"
