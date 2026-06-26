@@ -14,7 +14,7 @@ V2.1 is a USGS-only critical minerals mine-production concentration tracker cove
 
 The pipeline uses curated mine-production inputs, calculates producer-level country shares, derives concentration metrics, ranks the latest year, and generates visual outputs for project documentation.
 
-V2.1 focuses on observed production concentration. It does not convert concentration into a risk score.
+V2.1 focuses on observed production concentration. It does not convert concentration into a risk score, forecast, investment signal, or policy recommendation.
 
 Detailed case study:
 
@@ -116,15 +116,15 @@ Expected result:
     outputs/charts/critical_minerals_2024_top1_top3_comparison.png
     outputs/charts/critical_minerals_share_coverage_diagnostic.png
 
-The share coverage diagnostic chart is retained as a method and audit output rather than as a main README visual.
+The share coverage diagnostic chart is retained as a method-check output rather than as a main README visual.
 
 ## Limitations
 
-This project measures observed USGS mine-production concentration only. It is not a risk score, not an investment signal, not a geopolitical ranking, and not a forecast.
+This project measures observed USGS mine-production concentration only. It is a bounded descriptive concentration analysis, not a risk score, investment signal, geopolitical ranking, policy recommendation, or forecast.
 
 The results show where mine production is concentrated by country, but they do not independently measure trade flows, refining capacity, reserves, substitution potential, inventory buffers, company exposure, political stability, pricing power, or downstream battery supply-chain resilience.
 
-Concentration is therefore treated as a descriptive supply-structure metric, not as a complete measure of mineral supply risk, disruption probability, market power, or downstream supply-chain resilience.
+Concentration is therefore treated as a descriptive supply-structure metric, not as a complete measure of mineral supply risk, disruption probability, market power, downstream supply-chain resilience, or investment relevance.
 
 ## Version Note
 
@@ -136,7 +136,7 @@ Earlier V1 framing is retained only as project history and has been superseded b
 
 ## V2.2 — Processing & Refining Concentration Snapshot
 
-V2.2 extends the V2.1 mine-production concentration baseline into a bounded mining-vs-processing/refining concentration comparison.
+V2.2 extends the V2.1 mine-production concentration baseline into a bounded mining-versus-processing/refining concentration comparison based on selected public-source evidence.
 
 ### Business question
 
@@ -174,7 +174,7 @@ The V2.2 snapshot shows that, under the allowed 2024 top-three-share comparison,
 
 ### Claim boundary
 
-V2.2 is a bounded concentration comparison only.
+V2.2 is a bounded concentration comparison only and should not be read as a complete supply-chain risk model.
 
 It is not:
 
@@ -202,4 +202,11 @@ Important limitations:
 
 ## V2.3 Evidence-Limited Extension
 
-V2.3 has been initialized to track downstream concentration evidence across selected battery minerals, but current public documentation treats it as evidence-limited and not as a completed public case study pending stronger source-backed numeric coverage.
+V2.3 has been initialized to track downstream concentration evidence across selected battery minerals, but current public documentation treats it as evidence-limited and not as a completed public case study or final downstream concentration result.
+
+
+
+
+
+
+
