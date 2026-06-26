@@ -1,0 +1,2 @@
+﻿version,input_decision,closeout_decision,next_action
+V2.22,patch_candidates_exist,manual_context_review_required_before_patch,extract_patch_candidates_before_editing
