@@ -212,3 +212,13 @@ Manganese uses weaker battery-grade manganese sulphate snapshot evidence and is 
 - Preserved public emphasis on completed V2.1 and V2.2 outputs.
 - Did not create a V2.3 brief, chart, case study, risk score, forecast, policy claim, investment signal, or completed downstream bottleneck result.
 
+
+## V2.12 to V2.16 Internal Alignment
+
+- V2.12 recorded the stage architecture decision: upstream is V2.1, midstream is V2.4 to V2.11 and later V2.14, true downstream remains unbuilt and unclaimed.
+- V2.13 recorded natural graphite product-definition traceability and retained the existing V2.4 value 99 as public-snapshot only.
+- V2.14 consolidated the midstream line: lithium source-traceable, manganese proxy-limited, natural graphite product-definition-limited, cobalt/nickel low-priority precision gaps.
+- V2.15 recorded project-state/file-registry alignment as the next internal governance check.
+- V2.16 recorded registry/changelog alignment check before visual polish, public-surface work, or downstream expansion.
+
+Boundary: no README polish, docs polish, public packaging, portfolio framing, investment signal, policy recommendation, geopolitical ranking, forecast, bottleneck proof, vulnerability ranking, or validated risk model was created in this alignment block.

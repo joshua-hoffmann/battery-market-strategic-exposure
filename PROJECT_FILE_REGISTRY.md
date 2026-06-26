@@ -109,3 +109,18 @@ Examples:
 | src/v23_downstream_concentration_evidence_tracker.py | Validates V2.3 curated downstream concentration evidence and generates the processed evidence tracker |
 | data/processed/v23_downstream_concentration_evidence_tracker.csv | Processed V2.3 output comparing publicly observable concentration evidence across mining, processing/refining, and battery-grade conversion where comparable |
 
+
+## V2.12 to V2.16 Internal Alignment
+
+- data/curated/v212_stage_architecture_decision_register.csv - internal stage architecture decision register.
+- outputs/briefs/v212_stage_architecture_decision_note.md - internal stage architecture decision note.
+- data/curated/v213_natural_graphite_product_definition_traceability_register.csv - natural graphite product-definition traceability register.
+- outputs/briefs/v213_natural_graphite_product_definition_traceability_note.md - natural graphite product-definition traceability note.
+- data/curated/v214_midstream_consolidation_register.csv - midstream consolidation register.
+- outputs/briefs/v214_midstream_consolidation_note.md - midstream consolidation note.
+- data/curated/v215_project_state_file_registry_alignment.csv - project-state/file-registry alignment register.
+- outputs/briefs/v215_project_state_file_registry_alignment_note.md - project-state/file-registry alignment note.
+- data/curated/v216_registry_changelog_alignment_check.csv - registry/changelog alignment check register.
+- outputs/briefs/v216_registry_changelog_alignment_check_note.md - registry/changelog alignment check note.
+
+Boundary: these files are internal project-state and traceability records. They do not create public-facing claims, investment signals, policy recommendations, geopolitical rankings, forecasts, bottleneck proof, vulnerability rankings, or validated risk models.
