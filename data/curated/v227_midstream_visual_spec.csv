@@ -1,0 +1,8 @@
+﻿version,visual_element,mineral,encoding,label,boundary_note
+V2.27,bar_pair,cobalt,mining_vs_processing_refining_top3,cobalt: mining 88.52% vs processing/refining 89%,low_priority_public_snapshot_precision_gap
+V2.27,bar_pair,lithium,mining_vs_processing_refining_top3,lithium: mining 74.17% vs processing/refining 96%,strongest_midstream_case_source_traceable_processing_refining_value
+V2.27,bar_pair,manganese,mining_vs_processing_refining_top3,manganese: mining 74% vs processing/refining 95%,usable_but_proxy_limited_definition_gap
+V2.27,bar_pair,natural_graphite,mining_vs_processing_refining_top3,natural_graphite: mining 89.62% vs processing/refining 99%,product_definition_limited_public_snapshot
+V2.27,bar_pair,nickel,mining_vs_processing_refining_top3,nickel: mining 76.49% vs processing/refining 78%,low_priority_public_snapshot_precision_gap
+V2.27,legend,all,traceability_status,source-traceable / proxy-limited / product-definition-limited / public-snapshot precision gap,no equivalent source strength across minerals
+V2.27,stage_caption,all,architecture,Upstream built; midstream consolidated; downstream not built,do not show downstream as completed
