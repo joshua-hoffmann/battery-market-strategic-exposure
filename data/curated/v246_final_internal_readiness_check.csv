@@ -1,0 +1,9 @@
+﻿version,check,result,next_action
+V2.46,project_status_snapshot_present,pass,retain_snapshot
+V2.46,registry_present,pass,retain_registry
+V2.46,changelog_present,pass,retain_changelog
+V2.46,midstream_refined_visual_present,pass,keep_internal_until_public_patch
+V2.46,upstream_refined_visual_present,pass,keep_internal_until_public_patch
+V2.46,midstream_insertion_gate_present,pass,required_before_public_use
+V2.46,upstream_insertion_gate_present,pass,required_before_public_use
+V2.46,next_route_decision_present,pass,use_for_next_block
