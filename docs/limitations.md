@@ -1,6 +1,6 @@
 ﻿# Limitations
 
-This project uses selected public-data proxies and concentration metrics. Where the term strategic exposure is used, it refers to bounded concentration exposure or concentration patterns only; the project does not measure strategic exposure directly.
+This project uses selected public-data proxies and concentration metrics. Where the term bounded concentration exposure is used, it refers to bounded concentration exposure or concentration patterns only; the project does not measure bounded concentration exposure directly.
 
 ## Main Limitations
 
@@ -23,7 +23,7 @@ Do not claim that this project:
 
 - proves which region is most vulnerable
 - predicts regional battery-market outcomes
-- measures strategic exposure directly
+- measures bounded concentration exposure directly
 - identifies geopolitical winners or losers
 - creates an investment signal
 - validates a policy recommendation
@@ -102,3 +102,13 @@ If later-year data is added, it should be treated as a separate extension layer 
 ## V2.3 Evidence Boundary
 
 The V2.3 downstream concentration evidence module is not presented as a completed public case study or a completed downstream concentration result. Current coverage includes limited numeric downstream concentration evidence, while other observations remain directional only. The module should not be interpreted as bottleneck proof, a risk score, investment signal, geopolitical ranking, forecast, policy recommendation, or full downstream supply-chain model.
+
+
+
+
+
+
+
+
+
+

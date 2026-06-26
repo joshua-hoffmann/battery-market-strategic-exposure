@@ -2,7 +2,7 @@
 
 ## Status
 
-The first latest-year scorecard pipeline run has passed validation.
+The first latest-year scorecard pipeline run has passed local consistency check.
 
 The project currently contains a manually curated 2025 scorecard input, a processed scorecard output, and two generated charts.
 
@@ -73,7 +73,7 @@ It is not:
 - a policy prescription
 - a geopolitical ranking
 - an automatic risk score
-- a validated exposure model
+- a locally checked exposure model
 
 The current scorecard is latest-year only. It should not be described as a 2020-2025 trend analysis until multi-year data rows are added.
 
@@ -90,4 +90,6 @@ USGS lithium mine production is country-based. U.S. production is withheld by US
 PASS.
 
 The project is ready for a short public brief based on the latest-year scorecard outputs, with strict caveats.
+
+
 
