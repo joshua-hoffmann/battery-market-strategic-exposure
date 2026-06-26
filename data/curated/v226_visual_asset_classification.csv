@@ -1,0 +1,53 @@
+﻿version,path,visual_role,classification,rationale,next_action
+V2.26,data\curated\v210_cross_mineral_traceability_summary.csv,data_candidate,redesign_from_data,Core midstream data candidate.,use_for_new_midstream_chart
+V2.26,data\curated\v211_internal_traceability_index.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\curated\v212_stage_architecture_decision_register.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\curated\v213_natural_graphite_product_definition_traceability_register.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\curated\v214_midstream_consolidation_register.csv,data_candidate,redesign_from_data,Core midstream data candidate.,use_for_new_midstream_chart
+V2.26,data\curated\v215_project_state_file_registry_alignment.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\curated\v216_registry_changelog_alignment_check.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\curated\v217_public_surface_preflight_gate.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\curated\v218_public_surface_review_scan.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\curated\v219_public_surface_inspection_decision.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\curated\v28_lithium_iea_2025_traceability_register.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\processed\critical_minerals_concentration_metrics.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\processed\v23_downstream_concentration_evidence_tracker.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,data\processed\v24_downstream_concentration_comparison.csv,data_candidate,redesign_from_data,Core midstream data candidate.,use_for_new_midstream_chart
+V2.26,docs\v2_1_mine_production_concentration_case_study.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,docs\v2_2_processing_refining_concentration_case_study.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\processing_refining_concentration_snapshot_brief.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v210_cross_mineral_traceability_summary_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v211_internal_traceability_index_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v212_stage_architecture_decision_note.md,brief_or_note_candidate,caption_context,Useful for labels, boundaries, or stage framing.,use_for_caption_boundary_text
+V2.26,outputs\briefs\v213_natural_graphite_product_definition_traceability_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v214_midstream_consolidation_note.md,brief_or_note_candidate,caption_context,Useful for labels, boundaries, or stage framing.,use_for_caption_boundary_text
+V2.26,outputs\briefs\v215_project_state_file_registry_alignment_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v216_registry_changelog_alignment_check_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v217_public_surface_preflight_gate_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v218_public_surface_review_scan_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v219_public_surface_inspection_decision_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v24_downstream_concentration_study.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,outputs\briefs\v28_lithium_iea_2025_traceability_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\preproduction_critical_minerals_source_boundary\v21_v22_manual_classification_pass_1.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\preproduction_critical_minerals_source_boundary\v21_v22_source_inventory_interpretation_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\preproduction_critical_minerals_source_boundary\v21_v22_source_inventory_review_export.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\preproduction_critical_minerals_source_boundary\v21_v22_source_to_claim_boundary_table.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\CASE_STUDY_REBUILD_AUDIT.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\case_study_rebuild_inventory.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\case_study_rebuild_language_findings.csv,data_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\docs_data_sources.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\docs_limitations.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\docs_methodology.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\docs_v2_1_mine_production_concentration_case_study.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\docs_v2_2_processing_refining_concentration_case_study.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\docs_validation_note.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\outputs_briefs_processing_refining_concentration_snapshot_brief.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\outputs_briefs_strategic_exposure_brief.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\PROJECT_CHANGELOG.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\PROJECT_FILE_REGISTRY.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\PROJECT_STATE.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\PROJECT_STATUS_SNAPSHOT.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\README.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\post_push_public_readiness\github_screenshot_checklist.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\post_push_public_readiness\gpt_routing_snippets_post_push_readiness.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
+V2.26,private_learning\v21_v22_case_study_rebuild\post_push_public_readiness\post_push_public_readiness_workflow.md,brief_or_note_candidate,ignore_for_first_visual_pass,Not needed for first visual pass.,defer
