@@ -1,0 +1,5 @@
+﻿"check","result","next_action"
+"internal_draft_label","pass","keep_internal_until_public_gate"
+"bounded_descriptive_label","pass","retain_boundary_subtitle"
+"blocked_claims_caption","pass","retain_boundary_caption"
+"contains_svg_bars","pass","refine_layout"
