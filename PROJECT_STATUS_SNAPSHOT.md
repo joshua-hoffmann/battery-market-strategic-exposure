@@ -1,13 +1,15 @@
-﻿# Project Status Snapshot
-Updated: 2026-06-26
-Latest confirmed commit: 4817abd Add V2.14 midstream consolidation
+﻿# PROJECT STATUS SNAPSHOT
 
-Internal status: this is not public-facing documentation, not portfolio material, not recruiter-facing text, and not publishing material.
+Branch: v3-analytical-redesign-feasibility
 
-Architecture: Upstream = V2.1. Midstream = V2.4 to V2.14. Downstream = not yet built and not claimed.
+Latest completed block: V2.17 to V2.41 public-surface and visual-upgrade governance.
 
-Midstream state: Lithium source-traceable; Manganese proxy-limited; Natural Graphite product-definition-limited public snapshot; Cobalt and Nickel low-priority public-snapshot precision gaps.
+Current architecture: upstream V2.1 is retained as the upstream mine-production concentration block. Midstream V2.4 to V2.14 is the strongest analytical line. Downstream is not built and not claimed.
 
-Claim boundary: no complete downstream layer; no equivalent source-strength claim across minerals; no replacement of V2.4 values; no bottleneck proof; no disruption probability; no vulnerability ranking; no investment signal; no policy recommendation; no geopolitical ranking; no forecast; no complete supply-chain risk model; no validated risk model.
+Public-surface state: V2.17 to V2.23 reviewed public-surface readiness and closed without changing README, docs, or public briefs.
 
-Next executable work: V2.15 project-state and file-registry alignment check before public-surface or visual work.
+Visual state: refined internal midstream SVG exists at outputs/figures/v230_midstream_mining_vs_processing_refining_refined.svg. Refined internal upstream SVG exists at outputs/figures/v239_upstream_mine_production_concentration_refined.svg. Both require separate public-surface patch decisions before insertion.
+
+Boundary: descriptive concentration and traceability only. No investment signal, policy recommendation, geopolitical ranking, forecast, bottleneck proof, disruption probability, vulnerability ranking, full battery value-chain model, complete downstream layer, complete supply-chain risk model, or validated risk model.
+
+Best next options: targeted public-surface patch for selected visuals; or downstream source feasibility review; or final internal cleanup before merge/readiness review.
