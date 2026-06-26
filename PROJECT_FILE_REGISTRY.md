@@ -176,3 +176,13 @@ Boundary: these files are internal project-state and traceability records. They 
 - outputs/briefs/v240_upstream_visual_public_insertion_gate_note.md
 - data/curated/v241_visual_upgrade_block_closeout.csv
 - outputs/briefs/v241_visual_upgrade_block_closeout_note.md
+
+## V2.44 to V2.47 Final Internal Readiness Controls
+- data/curated/v244_repository_hygiene_and_boundary_gate.csv
+- outputs/briefs/v244_repository_hygiene_and_boundary_gate_note.md
+- data/curated/v245_next_route_decision.csv
+- outputs/briefs/v245_next_route_decision_note.md
+- data/curated/v246_final_internal_readiness_check.csv
+- outputs/briefs/v246_final_internal_readiness_check_note.md
+- data/curated/v247_artifact_index_coverage_check.csv
+- outputs/briefs/v247_artifact_index_coverage_check_note.md

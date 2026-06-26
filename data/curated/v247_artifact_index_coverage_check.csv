@@ -1,0 +1,10 @@
+﻿version,artifact,exists,listed_in_registry,status,next_action
+V2.47,data/curated/v217_public_surface_preflight_gate.csv,True,True,covered,retain
+V2.47,data/curated/v224_visual_upgrade_plan.csv,True,True,covered,retain
+V2.47,outputs/figures/v230_midstream_mining_vs_processing_refining_refined.svg,True,True,covered,retain
+V2.47,outputs/figures/v239_upstream_mine_production_concentration_refined.svg,True,True,covered,retain
+V2.47,data/curated/v241_visual_upgrade_block_closeout.csv,True,True,covered,retain
+V2.47,data/curated/v244_repository_hygiene_and_boundary_gate.csv,True,True,covered,retain
+V2.47,data/curated/v245_next_route_decision.csv,True,True,covered,retain
+V2.47,data/curated/v246_final_internal_readiness_check.csv,True,True,covered,retain
+V2.47,data/curated/v247_artifact_index_coverage_check.csv,True,True,covered,retain
