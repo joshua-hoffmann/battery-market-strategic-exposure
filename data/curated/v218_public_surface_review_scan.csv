@@ -1,0 +1,8 @@
+﻿"file","exists","hit_count","decision","next_action"
+"README.md","yes","8","needs_boundary_review","inspect_context_before_editing"
+"docs/methodology.md","yes","4","needs_boundary_review","inspect_context_before_editing"
+"docs/limitations.md","yes","9","needs_boundary_review","inspect_context_before_editing"
+"docs/data_sources.md","yes","4","needs_boundary_review","inspect_context_before_editing"
+"docs/validation_note.md","yes","3","needs_boundary_review","inspect_context_before_editing"
+"outputs/briefs/strategic_exposure_brief.md","yes","2","needs_boundary_review","inspect_context_before_editing"
+"outputs/briefs/processing_refining_concentration_snapshot_brief.md","yes","2","needs_boundary_review","inspect_context_before_editing"
