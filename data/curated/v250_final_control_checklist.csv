@@ -1,0 +1,9 @@
+﻿version,area,result,next_action
+V2.50,git_status,pass,keep_clean
+V2.50,snapshot,pass,retain
+V2.50,registry,pass,retain
+V2.50,changelog,pass,retain
+V2.50,v248_decision,pass,use_for_pause_or_merge
+V2.50,v249_summary,pass,use_for_handoff
+V2.50,midstream_visual,pass,internal_only_until_public_patch
+V2.50,upstream_visual,pass,internal_only_until_public_patch
