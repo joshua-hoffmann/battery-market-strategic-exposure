@@ -1,4 +1,11 @@
-﻿# PROJECT FILE REGISTRY — Battery Market Strategic Exposure
+﻿<!--
+INTERNAL PROJECT GOVERNANCE RECORD
+This file is retained for project-state continuity and internal workflow traceability.
+It is not a public-facing README, portfolio artifact, analytical claim, or publication-ready document.
+Do not use this file as external project documentation without a separate Public Surface Review.
+-->
+
+# PROJECT FILE REGISTRY — Battery Market Strategic Exposure
 
 ## Purpose
 
