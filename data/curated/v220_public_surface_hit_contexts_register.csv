@@ -1,0 +1,8 @@
+﻿"version","file","hit_count","decision","next_action"
+"V2.20","README.md","8","context_review_required","classify_as_boundary_note_or_patch_needed"
+"V2.20","docs/methodology.md","4","context_review_required","classify_as_boundary_note_or_patch_needed"
+"V2.20","docs/limitations.md","9","context_review_required","classify_as_boundary_note_or_patch_needed"
+"V2.20","docs/data_sources.md","4","context_review_required","classify_as_boundary_note_or_patch_needed"
+"V2.20","docs/validation_note.md","3","context_review_required","classify_as_boundary_note_or_patch_needed"
+"V2.20","outputs/briefs/strategic_exposure_brief.md","2","context_review_required","classify_as_boundary_note_or_patch_needed"
+"V2.20","outputs/briefs/processing_refining_concentration_snapshot_brief.md","2","context_review_required","classify_as_boundary_note_or_patch_needed"
