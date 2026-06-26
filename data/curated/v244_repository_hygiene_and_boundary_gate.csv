@@ -1,0 +1,9 @@
+﻿version,path,exists,status,next_action
+V2.44,PROJECT_STATUS_SNAPSHOT.md,True,present,retain
+V2.44,PROJECT_FILE_REGISTRY.md,True,present,retain
+V2.44,PROJECT_CHANGELOG.md,True,present,retain
+V2.44,outputs/figures/v230_midstream_mining_vs_processing_refining_refined.svg,True,present,retain
+V2.44,outputs/figures/v239_upstream_mine_production_concentration_refined.svg,True,present,retain
+V2.44,data/curated/v232_midstream_visual_public_insertion_gate.csv,True,present,retain
+V2.44,data/curated/v240_upstream_visual_public_insertion_gate.csv,True,present,retain
+V2.44,data/curated/v241_visual_upgrade_block_closeout.csv,True,present,retain
