@@ -1,0 +1,6 @@
+﻿"check","result","next_action"
+"has_internal_draft_boundary","pass","keep_internal_until_public_review"
+"states_downstream_not_built","pass","do_not_imply_complete_downstream"
+"blocks_overclaim_language","pass","retain_boundary_caption"
+"mentions_source_strength_difference","pass","retain_source_strength_caption"
+"contains_five_minerals","pass","verify_label_readability"
