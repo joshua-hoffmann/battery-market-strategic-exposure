@@ -19,3 +19,9 @@ private_learning/
 private_learning/
 
 private_learning/
+# Internal project governance / local state
+PROJECT_STATUS_SNAPSHOT.md
+PROJECT_STATE.md
+PROJECT_FILE_REGISTRY.md
+PROJECT_CHANGELOG.md
+docs/internal/
